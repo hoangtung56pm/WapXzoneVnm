@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://123.30.181.21:8081/TSDHService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DataEntities" />
+  <xs:element name="QueryData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="candidateNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryDataResult" nillable="true" type="q1:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="candidateNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryOrderResult" nillable="true" type="q2:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryUniversityPoint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="universityCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryUniversityPointResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryUniversityPointResult" nillable="true" type="q3:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryDepartmentPoint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="universityCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="departmentCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryDepartmentPointResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryDepartmentPointResult" nillable="true" type="q4:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryUniversityRate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="universityCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryUniversityRateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryUniversityRateResult" nillable="true" type="q5:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryDepartmentRate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="universityCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="departmentCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryDepartmentRateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryDepartmentRateResult" nillable="true" type="q6:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryAll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="candidateNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryAllResult" nillable="true" type="q7:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryAdviseUniversity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="universityCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryAdviseUniversityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryAdviseUniversityResult" nillable="true" type="q8:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryAdviseDepartment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="smsId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="universityCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="departmentCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="commandCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serviceId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryAdviseDepartmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/DataEntities" minOccurs="0" name="QueryAdviseDepartmentResult" nillable="true" type="q9:ResultData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

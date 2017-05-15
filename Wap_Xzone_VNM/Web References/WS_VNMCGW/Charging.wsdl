@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://sv36.vmgmedia.vn:8001/PortalCharging/services/Charging" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://sv36.vmgmedia.vn:8001/PortalCharging/services/Charging" targetNamespace="http://sv36.vmgmedia.vn:8001/PortalCharging/services/Charging" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="CallChargingResponse">
+    <wsdl:part name="CallChargingReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="CallChargingRequest">
+    <wsdl:part name="msisdn" type="soapenc:string" />
+    <wsdl:part name="productId" type="soapenc:string" />
+    <wsdl:part name="keyword" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="CallGameChargingResponse">
+    <wsdl:part name="CallGameChargingReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="CallGameChargingRequest">
+    <wsdl:part name="msisdn" type="soapenc:string" />
+    <wsdl:part name="productId" type="soapenc:string" />
+    <wsdl:part name="keyword" type="soapenc:string" />
+    <wsdl:part name="subCP" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:portType name="Charging">
+    <wsdl:operation name="CallCharging" parameterOrder="msisdn productId keyword">
+      <wsdl:input name="CallChargingRequest" message="impl:CallChargingRequest" />
+      <wsdl:output name="CallChargingResponse" message="impl:CallChargingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CallGameCharging" parameterOrder="msisdn productId keyword subCP">
+      <wsdl:input name="CallGameChargingRequest" message="impl:CallGameChargingRequest" />
+      <wsdl:output name="CallGameChargingResponse" message="impl:CallGameChargingResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ChargingSoapBinding" type="impl:Charging">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="CallCharging">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="CallChargingRequest">
+        <wsdlsoap:body use="encoded" namespace="http://vn.vmgmedia" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="CallChargingResponse">
+        <wsdlsoap:body use="encoded" namespace="http://sv36.vmgmedia.vn:8001/PortalCharging/services/Charging" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CallGameCharging">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="CallGameChargingRequest">
+        <wsdlsoap:body use="encoded" namespace="http://vn.vmgmedia" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="CallGameChargingResponse">
+        <wsdlsoap:body use="encoded" namespace="http://sv36.vmgmedia.vn:8001/PortalCharging/services/Charging" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ChargingService">
+    <wsdl:port name="Charging" binding="impl:ChargingSoapBinding">
+      <wsdlsoap:address location="http://sv36.vmgmedia.vn:8001/PortalCharging/services/Charging" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

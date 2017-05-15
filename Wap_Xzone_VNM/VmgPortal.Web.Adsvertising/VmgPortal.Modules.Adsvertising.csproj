@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76C23B82-CA3B-41B6-A421-6CB5E39633F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VmgPortal.Modules.Adsvertising</RootNamespace>
+    <AssemblyName>VmgPortal.Modules.Adsvertising</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Advertisement.cs" />
+    <Compile Include="Lib\AppEnv.cs" />
+    <Compile Include="Lib\Constants.cs" />
+    <Compile Include="Lib\ConvertUtility.cs" />
+    <Compile Include="Lib\DataAccess\AdvertiseDB.cs" />
+    <Compile Include="Lib\DataAccess\PositionDB.cs" />
+    <Compile Include="Lib\DataCaching.cs" />
+    <Compile Include="Lib\Data\AdvertiseInfo.cs" />
+    <Compile Include="Lib\Data\PositionInfo.cs" />
+    <Compile Include="Lib\Distributor\AdvertiseDistributor.cs" />
+    <Compile Include="Lib\Distributor\PositionDistributor.cs" />
+    <Compile Include="Lib\MultimediaUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\aspNetEmail.xml.lic" />
+    <None Include="bin\chartdir.lic" />
+    <None Include="bin\ComponentArt.Web.UI.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AJAXExtensionsToolbox.dll" />
+    <Content Include="bin\App_Licenses.dll" />
+    <Content Include="bin\aspNetEmail.dll" />
+    <Content Include="bin\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\PKILibrary.dll" />
+    <Content Include="bin\RadCalendar.Net2.dll" />
+    <Content Include="bin\RadCalendar.Net2.xml" />
+    <Content Include="bin\RadComboBox.Net2.dll" />
+    <Content Include="bin\RadDock.Net2.dll" />
+    <Content Include="bin\RadInput.Net2.dll" />
+    <Content Include="bin\RadInput.Net2.xml" />
+    <Content Include="bin\RadMenu.Net2.dll" />
+    <Content Include="bin\RadMenu.Net2.xml" />
+    <Content Include="bin\RadPanelbar.Net2.dll" />
+    <Content Include="bin\RadUpload.Net2.dll" />
+    <Content Include="bin\SgmlReaderDll.dll" />
+    <Content Include="bin\Telerik.QuickStart.dll" />
+    <Content Include="bin\VMG.Web.UI.dll" />
+    <Content Include="bin\VMG.Web.UI.pdb" />
+    <Content Include="bin\VmgPortal.CMS.dll" />
+    <Content Include="bin\VmgPortal.CMS.pdb" />
+    <Content Include="bin\VmgPortal.FilePicker.dll" />
+    <Content Include="bin\VmgPortal.FilePicker.pdb" />
+    <Content Include="bin\VmgPortal.FilePickerControl.dll" />
+    <Content Include="bin\VmgPortal.FilePickerControl.pdb" />
+    <Content Include="bin\VmgPortal.FontEnd_Library.dll" />
+    <Content Include="bin\VmgPortal.FontEnd_Library.pdb" />
+    <Content Include="bin\VmgPortal.Library.dll" />
+    <Content Include="bin\VmgPortal.Library.pdb" />
+    <Content Include="bin\VmgPortal.Optimization.dll" />
+    <Content Include="bin\VmgPortal.Optimization.pdb" />
+    <Content Include="bin\VmgPortal.Web.Optimization.dll" />
+    <Content Include="bin\VmgPortal.Web.Optimization.pdb" />
+    <Content Include="bin\VmgPortal.WebControls.dll" />
+    <Content Include="bin\VmgPortal.WebControls.pdb" />
+    <Content Include="bin\webmsgbox.dll" />
+    <Content Include="bin\Zip.dll" />
+    <Content Include="bin\Zip.Tests.dll" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51232</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

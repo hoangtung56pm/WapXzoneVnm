@@ -1,0 +1,245 @@
+﻿@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("/assets/font/myriad-pro/MYRIADPRO-REGULAR.OTF");
+    font-family: MyriadPro-Semibold;
+    src: url("/assets/font/myriad-pro/MYRIADPRO-SEMIBOLD.OTF");
+    font-family: UTM-American-Sans;
+    src: url("/assets/font/utm_americansans/UTM American Sans.ttf");
+}
+
+body {
+    background: #1e1e1e;
+    overflow-x: hidden;
+    width:320px;
+   
+}
+
+.header {
+    /*margin: auto;*/
+    margin-top:5px;
+}
+
+    .header a {
+        float: left;
+        width: 40%;
+        padding-left: 3px;
+    }
+
+.sdt a {
+    color: black;
+    font-family: MyriadPro;
+    font-size: 40px;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 15px;
+
+}
+
+@media (max-width: 450px) {
+    .sdt a {
+        font-size: 22px !important;
+        padding-left: 9px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .sdt a {
+        font-size: 18px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .sdt a {
+        font-size: 30px;
+        padding-left: 26px;
+    }
+}
+
+.sdt a span {
+    font-weight: bold;
+}
+
+.sdt {
+    background: url("/assets/Images/app_Quest_Sdt.png") no-repeat;
+    background-size: 97% 35px;
+    float: right;
+    width: 50%;
+    height: 35px;
+    margin-right: 9px;
+    line-height: 0px;
+}
+
+    .sdt img {
+        padding-left: 15px;
+    }
+
+.ads {
+    background: url("/assets/Images/ads.png") no-repeat;
+    height: 79px;
+    background-size: 98% 79px;
+    margin-left: 4px;
+}
+
+@media (max-width: 400px) {
+    .ads span {
+        padding-right: 25px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .ads span {
+        padding-right: 20px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .ads span {
+        padding-right: 40px !important;
+    }
+}
+
+.ads span {
+    color: white;
+    float: right;
+    font-family: UTM-American-Sans;
+    font-size: 50px;
+    margin-top: -4px;
+    padding-right: 35px;
+}
+
+.title {
+    background: #4d4d4d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 98%;
+}
+
+.content_quest {
+    background: #4d4d4d;
+    width: 98%;
+}
+
+.quest_title {
+    background: #474646;
+    margin-top: -3px;
+}
+
+    .quest_title img {
+        padding-top: 10px;
+    }
+
+.question p {
+    text-align: center;
+    font-family: MyriadPro-Regular;
+    font-size: 30px;
+}
+
+.quest_1 {
+    background: rgba(0, 0, 0, 0) url("/assets/Images/bg_quest.png") no-repeat scroll 0 0 / 296px 42px;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.quest_2 {
+    background: rgba(0, 0, 0, 0) url("/assets/Images/bg_quest.png") no-repeat scroll 0 0 / 296px 42px;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.quest_1 img, .quest_2 img {
+        float: left;
+    padding-left: 3px;
+    padding-top: 2px;
+    }
+
+.btanswer {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+    font-family: MyriadPro-It;
+    font-size: 19px;
+    
+    line-height: 41px;
+}
+
+.reward {
+    background: url("/assets/Images/bg_reward.png") no-repeat;
+    width: 98%;
+    height: 67px;
+    background-size: 100% 67px;
+}
+
+    .reward p {
+        color: white;
+        font-family: MyriadPro-Regular solid;
+        font-size: 21px;
+        margin-left: 12px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+        .reward p span {
+            color: #db9d43;
+        }
+
+.btnBuy {
+    background: url("/assets/Images/app_Quest_3G.jpg") no-repeat;
+    width: 119px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btnBought {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 244px;
+    margin: 0 auto;
+}
+/*thể lệ */
+.content_thele {
+    background: #ffffff;
+    border-radius: 6px;
+    width: 96%;
+}
+
+    .content_thele p {
+        padding: 30px 19px 30px 18px;
+    }
+
+.header_thele {
+    background: url("/assets/Images/tthe-le-Title.png") no-repeat;
+    background-size: 96% 64px;
+    height: 64px;
+}
+
+    .header_thele a {
+        padding-left: 20px;
+    }
+
+        .header_thele a img {
+            padding-top: 10px;
+        }
+/*sử dụng Wifi */
+.header_dvWifi {
+    background: url("/assets/Images/app_Quest_wifi.png") no-repeat;
+    height: 91px;
+    background-size: 96% 91px;
+}
+
+   
+.header_dvWifi p {
+    color: white;
+    font-family: MyriadPro-Semibold;
+    font-size: 22px;
+    padding: 14px 30px 10px;
+    text-align: center;
+}
+

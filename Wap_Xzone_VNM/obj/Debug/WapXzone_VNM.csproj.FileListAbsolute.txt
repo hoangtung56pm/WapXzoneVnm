@@ -1,0 +1,129 @@
+P:\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+P:\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+P:\Wap_Xzone_VNM\bin\log4net.dll
+P:\Wap_Xzone_VNM\bin\VmgPortal.Modules.Adsvertising.dll
+P:\Wap_Xzone_VNM\bin\wurflApi.dll
+P:\Wap_Xzone_VNM\bin\wurflApi.pdb
+P:\Wap_Xzone_VNM\bin\wurflApi.xml
+P:\Wap_Xzone_VNM\bin\log4net.xml
+P:\Wap_Xzone_VNM\bin\VmgPortal.Modules.Adsvertising.pdb
+P:\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+P:\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+P:\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\obj\Debug\ResolveAssemblyReference.cache
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\log4net.dll
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\VmgPortal.Modules.Adsvertising.dll
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\wurflApi.dll
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\VmgPortal.Modules.Adsvertising.pdb
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\log4net.xml
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\wurflApi.pdb
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\bin\wurflApi.xml
+D:\Vip_Project\vs2008\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\log4net.dll
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\wurflApi.dll
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\log4net.xml
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\wurflApi.pdb
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\bin\wurflApi.xml
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+E:\Work\Projects\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\HtmlAgilityPack.dll
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\log4net.dll
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\wurflApi.dll
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\log4net.xml
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\wurflApi.pdb
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\bin\wurflApi.xml
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\obj\Debug\ResolveAssemblyReference.cache
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+D:\Minh - Works\Wap\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\HtmlAgilityPack.dll
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\log4net.dll
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\wurflApi.dll
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\log4net.xml
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\wurflApi.pdb
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\bin\wurflApi.xml
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Minh_Works\Wap\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\log4net.dll
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\wurflApi.dll
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\log4net.xml
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\wurflApi.pdb
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\bin\wurflApi.xml
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Data\Minh\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\log4net.dll
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\wurflApi.dll
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\log4net.xml
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\wurflApi.pdb
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\bin\wurflApi.xml
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+D:\VU_NGUYEN\WapVNM\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\log4net.dll
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\wurflApi.dll
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\log4net.xml
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\wurflApi.pdb
+D:\VU_NGUYEN\Wap_Xzone_VNM\bin\wurflApi.xml
+D:\VU_NGUYEN\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+D:\VU_NGUYEN\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+D:\VU_NGUYEN\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\log4net.dll
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\wurflApi.dll
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\log4net.xml
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\wurflApi.pdb
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\bin\wurflApi.xml
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+E:\Data\VU NGUYEN_ban giao 11.2015\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Project\Wap_Xzone_VNM\bin\WapXzone_VNM.dll.config
+E:\Project\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+E:\Project\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+E:\Project\Wap_Xzone_VNM\bin\log4net.dll
+E:\Project\Wap_Xzone_VNM\bin\wurflApi.dll
+E:\Project\Wap_Xzone_VNM\bin\log4net.xml
+E:\Project\Wap_Xzone_VNM\bin\wurflApi.pdb
+E:\Project\Wap_Xzone_VNM\bin\wurflApi.xml
+E:\Project\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+E:\Project\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\WapXzone_VNM.dll.config
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\log4net.dll
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\wurflApi.dll
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\log4net.xml
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\wurflApi.pdb
+E:\Project\VMGAll\VNM_ALL\wap\Wap_Xzone_VNM\bin\wurflApi.xml
+E:\Project\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+I:\Project\Wap_Xzone_VNM\bin\WapXzone_VNM.dll.config
+I:\Project\Wap_Xzone_VNM\bin\WapXzone_VNM.dll
+I:\Project\Wap_Xzone_VNM\bin\WapXzone_VNM.pdb
+I:\Project\Wap_Xzone_VNM\bin\log4net.dll
+I:\Project\Wap_Xzone_VNM\bin\wurflApi.dll
+I:\Project\Wap_Xzone_VNM\bin\log4net.xml
+I:\Project\Wap_Xzone_VNM\bin\wurflApi.pdb
+I:\Project\Wap_Xzone_VNM\bin\wurflApi.xml
+I:\Project\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.csprojResolveAssemblyReference.cache
+I:\Project\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.dll
+I:\Project\Wap_Xzone_VNM\obj\Debug\WapXzone_VNM.pdb

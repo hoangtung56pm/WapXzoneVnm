@@ -1,0 +1,145 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Hinhnen/d:UserControlHigh/f:Category.ascx.cs" caret="740" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Hinhnen/d:UserControlHigh/f:Category.ascx" caret="743" fromTop="6" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DefaultHigh.aspx.cs" caret="1282" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:Default.aspx" caret="682" fromTop="7" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControl/f:List.ascx.cs" caret="6347" fromTop="12" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControlHigh/f:List.ascx" caret="1318" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Game/f:DefaultHigh.aspx" caret="2859" fromTop="20" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControlHigh/f:Home.ascx" caret="1409" fromTop="24" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:Download.aspx.cs" caret="1625" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Game/f:DownloadHigh.aspx.cs" caret="1278" fromTop="32" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/f:Global.asax.cs" caret="17920" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Game/f:DownloadHigh.aspx" caret="1360" fromTop="16" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DefaultHigh.aspx" caret="3143" fromTop="1" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx" caret="1249" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Game/d:UserControl/f:Detail.ascx.cs" caret="5305" fromTop="88" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControlHigh/f:Detail.ascx.cs" caret="1998" fromTop="17" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControlHigh/f:Detail.ascx" caret="1085" fromTop="12" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Library/d:UrlProcess/f:UrlProcess.cs" caret="55963" fromTop="14" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControl/f:Detail.ascx.cs" caret="9922" fromTop="14" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Game/d:UserControlHigh/f:Detail.ascx" caret="0" fromTop="0" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="2383" fromTop="17" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Content/d:asset/d:Css/f:style.css" caret="3892" fromTop="37" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Home.ascx" caret="4353" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:DuLieuBongDa.ascx" caret="1082" fromTop="16" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Menu.ascx" caret="2312" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Library/f:AppEnv.cs" caret="14748" fromTop="9" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Home.ascx" caret="3536" fromTop="21" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Footer.ascx" caret="197" fromTop="3" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Video.ascx" caret="1471" fromTop="17" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/f:Web.config" caret="18342" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControlHigh/f:List.ascx" caret="928" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DefaultHigh.aspx" caret="3034" fromTop="30" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DefaultHigh.aspx" caret="1662" fromTop="13" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="6304" fromTop="13" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="11873" fromTop="15" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx" caret="580" fromTop="6" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx" caret="6052" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx" caret="3511" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="7680" fromTop="9" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/d:UserControlHigh/f:Detail.ascx" caret="1112" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="9692" fromTop="26" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="9587" fromTop="27" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Library/f:AppEnv.cs" caret="21596" fromTop="28" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="9039" fromTop="10" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Phanmem/f:DownloadHigh.aspx.cs" caret="1448" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Content/d:asset/d:Css/f:style.css" caret="4122" fromTop="20" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Home.ascx" caret="2361" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Home.ascx" caret="2084" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Home.ascx" caret="2511" fromTop="27" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Home.ascx" caret="2246" fromTop="20" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:DuLieuBongDa.ascx" caret="321" fromTop="4" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Menu.ascx" caret="682" fromTop="6" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Menu.ascx" caret="844" fromTop="10" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Menu.ascx" caret="2427" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Menu.ascx" caret="1007" fromTop="14" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Menu.ascx" caret="2436" fromTop="28" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Footer.ascx" caret="342" fromTop="7" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Footer.ascx" caret="197" fromTop="3" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Video.ascx" caret="2137" fromTop="11" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Wap/d:UserControlHigh/f:Video.ascx" caret="1308" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="UrlProcess`0" priority="1" />
+      <Item value="else" priority="1" />
+      <Item value="if" priority="4" />
+      <Item value="id" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="public" priority="1" />
+      <Item value="static" priority="1" />
+      <Item value="void" priority="0" />
+      <Item value="HttpContext`0" priority="0" />
+      <Item value="AppEnv`0" priority="3" />
+      <Item value="Page" priority="1" />
+      <Item value="dt" priority="3" />
+      <Item value="Eval`0" priority="2" />
+      <Item value="HienThiNoiDung`0" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="ConvertUtility`0" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="appId" priority="0" />
+      <Item value="msisdn" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="partnerId" priority="0" />
+      <Item value="telco" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.UrlProcess.UrlProcess">
+      <Item value="TinTucHome`0" priority="0" />
+      <Item value="GameChuyenMuc`0" priority="0" />
+      <Item value="HinhNenChuyenMuc`0" priority="0" />
+      <Item value="PhanMemChiTiet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.AppEnv">
+      <Item value="RegisterAllSubConfig`0" priority="0" />
+      <Item value="CheckSessionTelco`0" priority="3" />
+      <Item value="CheckMsisdn`0" priority="0" />
+      <Item value="GetAvatar`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsPostBack" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Utilities.ConvertUtility">
+      <Item value="ToInt32`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

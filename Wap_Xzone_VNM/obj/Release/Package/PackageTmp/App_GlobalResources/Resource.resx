@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gTheLoaiGame_KD" xml:space="preserve">
+    <value>THE LOAI GAME</value>
+  </data>
+  <data name="gTheLoaiGame" xml:space="preserve">
+    <value>THỂ LOẠI GAME</value>
+  </data>
+  <data name="pmPhanMemCungTheLoai_KD" xml:space="preserve">
+    <value>PHAN MEM CUNG THE LOAI</value>
+  </data>
+  <data name="pmTheLoaiPhanMem" xml:space="preserve">
+    <value>THỂ LOẠI PHẦN MỀM</value>
+  </data>
+  <data name="pmTheLoaiPhanMem_KD" xml:space="preserve">
+    <value>THE LOAI PHAN MEM</value>
+  </data>
+  <data name="vVideoCungTheLoai" xml:space="preserve">
+    <value>VIDEO CÙNG THỂ LOẠI</value>
+  </data>
+  <data name="vTheLoaiVideo" xml:space="preserve">
+    <value>THỂ LOẠI VIDEO</value>
+  </data>
+  <data name="vTheLoaiVideo_KD" xml:space="preserve">
+    <value>THE LOAI VIDEO</value>
+  </data>
+  <data name="wKhongHoTro" xml:space="preserve">
+    <value>Không hỗ trợ</value>
+  </data>
+  <data name="hnTheLoaiHinh" xml:space="preserve">
+    <value>THỂ LOẠI HÌNH NỀN</value>
+  </data>
+  <data name="wMoiCapNhat" xml:space="preserve">
+    <value>MỚI CẬP NHẬT</value>
+  </data>
+  <data name="gGameCungTheLoai" xml:space="preserve">
+    <value>GAME CÙNG THỂ LOẠI</value>
+  </data>
+  <data name="pmPhanMemCungTheLoai" xml:space="preserve">
+    <value>PHẦN MỀM CÙNG THỂ LOẠI</value>
+  </data>
+  <data name="wMoiCapNhat_KD" xml:space="preserve">
+    <value>MOI CAP NHAT</value>
+  </data>
+  <data name="wTaiNhieuNhat" xml:space="preserve">
+    <value>TẢI NHIỀU NHẤT</value>
+  </data>
+  <data name="wGioiThieu_KD" xml:space="preserve">
+    <value>Gioi thieu: </value>
+  </data>
+  <data name="wTaiNhieuNhat_KD" xml:space="preserve">
+    <value>TAI NHIEU NHAT</value>
+  </data>
+  <data name="wTai" xml:space="preserve">
+    <value>Tải</value>
+  </data>
+  <data name="rNhacCungTheLoai" xml:space="preserve">
+    <value>NHẠC CÙNG THỂ LOẠI</value>
+  </data>
+  <data name="wKhongHoTro_KD" xml:space="preserve">
+    <value>Khong ho tro</value>
+  </data>
+  <data name="hnTheLoaiHinh_KD" xml:space="preserve">
+    <value>THE LOAI HINH NEN</value>
+  </data>
+  <data name="wTai_KD" xml:space="preserve">
+    <value>Tai</value>
+  </data>
+  <data name="wTang" xml:space="preserve">
+    <value>Tặng</value>
+  </data>
+  <data name="wTang_KD" xml:space="preserve">
+    <value>Tang</value>
+  </data>
+  <data name="wGioiThieu" xml:space="preserve">
+    <value>Giới thiệu: </value>
+  </data>
+  <data name="hnHinhCungTheLoai" xml:space="preserve">
+    <value>HÌNH NỀN CÙNG THỂ LOẠI</value>
+  </data>
+  <data name="hnHinhCungTheLoai_KD" xml:space="preserve">
+    <value>HINH NEN CUNG THE LOAI</value>
+  </data>
+  <data name="wDonViTien" xml:space="preserve">
+    <value> đ</value>
+  </data>
+  <data name="wDonViTien_KD" xml:space="preserve">
+    <value> d</value>
+  </data>
+  <data name="wGiaTai" xml:space="preserve">
+    <value>Giá tải: </value>
+  </data>
+  <data name="wGiaTai_KD" xml:space="preserve">
+    <value>Gia tai: </value>
+  </data>
+  <data name="wGiaTang" xml:space="preserve">
+    <value>Giá tặng: </value>
+  </data>
+  <data name="wGiaTang_KD" xml:space="preserve">
+    <value>Gia tang: </value>
+  </data>
+  <data name="wGuiTang" xml:space="preserve">
+    <value>Gửi tặng</value>
+  </data>
+  <data name="wGuiTang_KD" xml:space="preserve">
+    <value>Gui tang</value>
+  </data>
+  <data name="wLuotTai" xml:space="preserve">
+    <value>Lượt tải: </value>
+  </data>
+  <data name="wLuotTai_KD" xml:space="preserve">
+    <value>Luot tai: </value>
+  </data>
+  <data name="wTaiVe" xml:space="preserve">
+    <value>Tải về</value>
+  </data>
+  <data name="wTaiVe_KD" xml:space="preserve">
+    <value>Tai ve</value>
+  </data>
+  <data name="wTheLoai" xml:space="preserve">
+    <value>Thể loại: </value>
+  </data>
+  <data name="wTheLoai_KD" xml:space="preserve">
+    <value>The loai: </value>
+  </data>
+  <data name="wTrangChu" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="wTrangChu_KD" xml:space="preserve">
+    <value>Trang chu</value>
+  </data>
+  <data name="gGameCungTheLoai_KD" xml:space="preserve">
+    <value>GAME CUNG THE LOAI</value>
+  </data>
+  <data name="rNhacCungTheLoai_KD" xml:space="preserve">
+    <value>NHAC CUNG THE LOAI</value>
+  </data>
+  <data name="rTheLoaiNhac" xml:space="preserve">
+    <value>THỂ LOẠI NHẠC</value>
+  </data>
+  <data name="rTheLoaiNhac_KD" xml:space="preserve">
+    <value>THE LOAI NHAC</value>
+  </data>
+  <data name="vVideoCungTheLoai_KD" xml:space="preserve">
+    <value>VIDEO CUNG THE LOAI</value>
+  </data>
+  <data name="wCaSy" xml:space="preserve">
+    <value>Ca sỹ: </value>
+  </data>
+  <data name="wCaSy_KD" xml:space="preserve">
+    <value>Ca sy: </value>
+  </data>
+  <data name="tgChuDeHot" xml:space="preserve">
+    <value>CHỦ ĐỀ HOT</value>
+  </data>
+  <data name="tgChuDeHot_KD" xml:space="preserve">
+    <value>CHU DE HOT</value>
+  </data>
+  <data name="wCacGiaiDau" xml:space="preserve">
+    <value>CÁC GIẢI ĐẤU</value>
+  </data>
+  <data name="wCacGiaiDau_KD" xml:space="preserve">
+    <value>CAC GIAI DAU</value>
+  </data>
+  <data name="wGia" xml:space="preserve">
+    <value>Giá: </value>
+  </data>
+  <data name="wGia_KD" xml:space="preserve">
+    <value>Gia: </value>
+  </data>
+  <data name="wLuotXem" xml:space="preserve">
+    <value>Lượt xem: </value>
+  </data>
+  <data name="wLuotXem_KD" xml:space="preserve">
+    <value>Luot xem: </value>
+  </data>
+  <data name="xsCacTinhMoThuong" xml:space="preserve">
+    <value>CÁC TỈNH MỞ THƯỞNG</value>
+  </data>
+  <data name="xsCacTinhMoThuong_KD" xml:space="preserve">
+    <value>CAC TINH Mo THUONG</value>
+  </data>
+  <data name="xsKQCho" xml:space="preserve">
+    <value>&lt;span class="orange bold"&gt;KQ chờ&lt;/span&gt;</value>
+  </data>
+  <data name="xsKQCho_KD" xml:space="preserve">
+    <value>&lt;span class="orange bold"&gt;KQ cho&lt;/span&gt;</value>
+  </data>
+  <data name="xsKQKyTruoc" xml:space="preserve">
+    <value>KQ</value>
+  </data>
+  <data name="xsKQKyTruoc_KD" xml:space="preserve">
+    <value>KQ</value>
+  </data>
+  <data name="xsSoiCau" xml:space="preserve">
+    <!--<value>&lt;span class="orange bold"&gt;Soi cầu&lt;/span&gt;</value>-->
+	  <value>&lt;span class="orange bold"&gt;Cặp số may mắn&lt;/span&gt;</value>
+  </data>
+  <data name="xsSoiCau_KD" xml:space="preserve">
+    <!--<value>&lt;span class="orange bold"&gt;Soi cau&lt;/span&gt;</value>-->
+	  <value>&lt;span class="orange bold"&gt;Cap so may man&lt;/span&gt;</value>
+  </data>
+  <data name="xsXSThuDo" xml:space="preserve">
+    <value>XS Thủ đô</value>
+  </data>
+  <data name="xsXSThuDo_KD" xml:space="preserve">
+    <value>XS Thu do</value>
+  </data>
+  <data name="btnCo" xml:space="preserve">
+    <value>  Có  </value>
+  </data>
+  <data name="btnCo_KD" xml:space="preserve">
+    <value>  Co  </value>
+  </data>
+  <data name="btnKhong" xml:space="preserve">
+    <value> Không </value>
+  </data>
+  <data name="btnKhong_KD" xml:space="preserve">
+    <value> Khong </value>
+  </data>
+  <data name="wThongBao" xml:space="preserve">
+    <value>THÔNG BÁO</value>
+  </data>
+  <data name="wThongBao_KD" xml:space="preserve">
+    <value>THONG BAO</value>
+  </data>
+  <data name="wXacNhanDichVu" xml:space="preserve">
+    <value>Bạn vui lòng xác nhận trước khi tải </value>
+    <comment>Phí tải dịch vụ là xxx đồng. Bạn vui lòng xác nhận trước khi thực hiện.</comment>
+  </data>
+  <data name="wXacNhanDichVu_KD" xml:space="preserve">
+    <value>Ban vui long xac nhan truoc khi tai </value>
+    <comment>Phi tai dich vu la xxx dong. Ban vui long xac nhan truoc khi thuc hien.</comment>
+  </data>
+  <data name="wXacNhanNoiDung" xml:space="preserve">
+    <value>Bạn đồng ý mua</value>
+  </data>
+  <data name="wXacNhanNoiDung_KD" xml:space="preserve">
+    <value>Ban dong y mua</value>
+  </data>
+  <data name="wThongBaoLoiThanhToan" xml:space="preserve">
+    <value>Lệnh thanh toán không thành công hoặc tài khoản không đủ tiền.&lt;br /&gt;Bạn vui lòng kiểm tra lại tài khoản và thử lại sau.&lt;br /&gt;Xin cảm ơn.</value>
+  </data>
+  <data name="wThongBaoLoiThanhToan_KD" xml:space="preserve">
+    <value>Lenh thanh toan khong thanh cong hoac tai khoan khong du tien.&lt;br /&gt;Ban vui long kiem tra lai tai khoan va thu lai sau.&lt;br /&gt;Xin cam on.</value>
+  </data>
+  <data name="wBamDeTai" xml:space="preserve">
+    <value>Bấm vào đây để tải nội dung về máy</value>
+  </data>
+  <data name="wBamDeTai_KD" xml:space="preserve">
+    <value>Bam vao day de tai noi dung ve may</value>
+  </data>
+  <data name="wMuaThanhCong" xml:space="preserve">
+    <value>Bạn đã mua thành công</value>
+  </data>
+  <data name="wMuaThanhCong_KD" xml:space="preserve">
+    <value>Ban da mua thanh cong</value>
+  </data>
+  <data name="wChon3G" xml:space="preserve">
+    <!--<value>&lt;br /&gt;Hoặc chọn kết nối &lt;b&gt;Dịch vụ WAP&lt;/b&gt; hay &lt;b&gt;VNM WAP&lt;/b&gt; để sử dụng dịch vụ này.</value>-->
+	 <value>&lt;br /&gt;Hoặc lựa chọn kết nối &lt;b&gt;EDGE&lt;/b&gt; hay &lt;b&gt;3G&lt;/b&gt; để sử dụng dịch vụ này. Lưu ý, hãy ngắt kết nối wifi bạn nhé</value>
+  </data>
+  <data name="wChon3G_KD" xml:space="preserve">
+    <!--<value>&lt;br /&gt;Hoac chon ket noi &lt;b&gt;Dich vu WAP&lt;/b&gt; hay &lt;b&gt;VNM WAP&lt;/b&gt; de su dung dich vu nay.</value>-->
+	  <value>&lt;br /&gt;Hoac lua chon ket noi &lt;b&gt;EDGE&lt;/b&gt; hay &lt;b&gt;3G&lt;/b&gt; de su dung dich vu nay. Luu y hay ngat ket noi wifi ban nhe</value>
+  </data>
+  <data name="wHuongDan" xml:space="preserve">
+    <value>HƯỚNG DẪN</value>
+  </data>
+  <data name="wHuongDan_KD" xml:space="preserve">
+    <value>HUONG DAN</value>
+  </data>
+  <data name="wSoDienThoaiKhongHopLe" xml:space="preserve">
+    <value>Số điện thoại bạn gửi tặng không hợp lệ.&lt;br /&gt;Vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="wSoDienThoaiKhongHopLe_KD" xml:space="preserve">
+    <value>So dien thoai ban gui tang khong hop le.&lt;br /&gt;Vui long kiem tra lai.</value>
+  </data>
+  <data name="wXacNhanTangDichVu" xml:space="preserve">
+    <value>Bạn vui lòng xác nhận trước khi tặng </value>
+    <comment>Phí tặng dịch vụ là xxx đồng. Bạn vui lòng xác nhận trước khi thực hiện.</comment>
+  </data>
+  <data name="wXacNhanTangDichVu_KD" xml:space="preserve">
+    <value>Ban vui long xac nhan truoc khi tang </value>
+    <comment>Phi tang dich vu la xxx dong. Ban vui long xac nhan truoc khi thuc hien.</comment>
+  </data>
+  <data name="wTangThanhCong" xml:space="preserve">
+    <value>Bạn đã gửi tặng thành công</value>
+  </data>
+  <data name="wTangThanhCong_KD" xml:space="preserve">
+    <value>Ban da gui tang thanh cong</value>
+  </data>
+  <data name="wThongBaoGia" xml:space="preserve">
+    <value>Giá: </value>
+  </data>
+  <data name="wThongBaoGia_KD" xml:space="preserve">
+    <value>Gia: </value>
+  </data>
+  <data name="wXacNhanDangKyDichVu" xml:space="preserve">
+    <value>Bạn vui lòng xác nhận trước khi đăng ký </value>
+  </data>
+  <data name="wXacNhanDangKyDichVu_KD" xml:space="preserve">
+    <value>Ban vui long xac nhan truoc khi dang ky </value>
+  </data>
+  <data name="wSoBai" xml:space="preserve">
+    <value>Số bài: </value>
+  </data>
+  <data name="wSoBai_KD" xml:space="preserve">
+    <value>So bai: </value>
+  </data>
+  <data name="wBamDeXem" xml:space="preserve">
+    <value>Bấm vào đây để xem </value>
+  </data>
+  <data name="wBamDeXem_KD" xml:space="preserve">
+    <value>Bam vao day de xem </value>
+  </data>
+</root>

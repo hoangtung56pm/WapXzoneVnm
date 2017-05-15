@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WSProcessMo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSProcessMoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoThanTai">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoThanTaiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSProcessMoThanTaiResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoVClip">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoVClipResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSProcessMoVClipResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoSportGame">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoSportGameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSProcessMoSportGameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WsMo949Process">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WsMo949ProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WsMo949ProcessResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSWorldCupMoProcess">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSWorldCupMoProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSWorldCupMoProcessResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LiveNewsWorldCupProcess">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="matchId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="teamCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LiveNewsWorldCupProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LiveNewsWorldCupProcessResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateGiffCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateGiffCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateGiffCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passWord" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mtContent" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="chargedDay" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImportUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WsBigPromotionMoProcess">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WsBigPromotionMoProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WsBigPromotionMoProcessResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoViSportWap">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoViSportWapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSProcessMoViSportWapResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoViSportWap_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSProcessMoViSportWap_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSProcessMoViSportWap_NewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WSProcessMoSoapIn">
+    <wsdl:part name="parameters" element="tns:WSProcessMo" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoSoapOut">
+    <wsdl:part name="parameters" element="tns:WSProcessMoResponse" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoThanTaiSoapIn">
+    <wsdl:part name="parameters" element="tns:WSProcessMoThanTai" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoThanTaiSoapOut">
+    <wsdl:part name="parameters" element="tns:WSProcessMoThanTaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoVClipSoapIn">
+    <wsdl:part name="parameters" element="tns:WSProcessMoVClip" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoVClipSoapOut">
+    <wsdl:part name="parameters" element="tns:WSProcessMoVClipResponse" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoSportGameSoapIn">
+    <wsdl:part name="parameters" element="tns:WSProcessMoSportGame" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoSportGameSoapOut">
+    <wsdl:part name="parameters" element="tns:WSProcessMoSportGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="WsMo949ProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:WsMo949Process" />
+  </wsdl:message>
+  <wsdl:message name="WsMo949ProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:WsMo949ProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="WSWorldCupMoProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:WSWorldCupMoProcess" />
+  </wsdl:message>
+  <wsdl:message name="WSWorldCupMoProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:WSWorldCupMoProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="LiveNewsWorldCupProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:LiveNewsWorldCupProcess" />
+  </wsdl:message>
+  <wsdl:message name="LiveNewsWorldCupProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:LiveNewsWorldCupProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateGiffCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateGiffCode" />
+  </wsdl:message>
+  <wsdl:message name="GenerateGiffCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateGiffCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImportUserSoapIn">
+    <wsdl:part name="parameters" element="tns:ImportUser" />
+  </wsdl:message>
+  <wsdl:message name="ImportUserSoapOut">
+    <wsdl:part name="parameters" element="tns:ImportUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="WsBigPromotionMoProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:WsBigPromotionMoProcess" />
+  </wsdl:message>
+  <wsdl:message name="WsBigPromotionMoProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:WsBigPromotionMoProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoViSportWapSoapIn">
+    <wsdl:part name="parameters" element="tns:WSProcessMoViSportWap" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoViSportWapSoapOut">
+    <wsdl:part name="parameters" element="tns:WSProcessMoViSportWapResponse" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoViSportWap_NewSoapIn">
+    <wsdl:part name="parameters" element="tns:WSProcessMoViSportWap_New" />
+  </wsdl:message>
+  <wsdl:message name="WSProcessMoViSportWap_NewSoapOut">
+    <wsdl:part name="parameters" element="tns:WSProcessMoViSportWap_NewResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="WSProcessMo">
+      <wsdl:input message="tns:WSProcessMoSoapIn" />
+      <wsdl:output message="tns:WSProcessMoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoThanTai">
+      <wsdl:input message="tns:WSProcessMoThanTaiSoapIn" />
+      <wsdl:output message="tns:WSProcessMoThanTaiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoVClip">
+      <wsdl:input message="tns:WSProcessMoVClipSoapIn" />
+      <wsdl:output message="tns:WSProcessMoVClipSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoSportGame">
+      <wsdl:input message="tns:WSProcessMoSportGameSoapIn" />
+      <wsdl:output message="tns:WSProcessMoSportGameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WsMo949Process">
+      <wsdl:input message="tns:WsMo949ProcessSoapIn" />
+      <wsdl:output message="tns:WsMo949ProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WSWorldCupMoProcess">
+      <wsdl:input message="tns:WSWorldCupMoProcessSoapIn" />
+      <wsdl:output message="tns:WSWorldCupMoProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LiveNewsWorldCupProcess">
+      <wsdl:input message="tns:LiveNewsWorldCupProcessSoapIn" />
+      <wsdl:output message="tns:LiveNewsWorldCupProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateGiffCode">
+      <wsdl:input message="tns:GenerateGiffCodeSoapIn" />
+      <wsdl:output message="tns:GenerateGiffCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImportUser">
+      <wsdl:input message="tns:ImportUserSoapIn" />
+      <wsdl:output message="tns:ImportUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WsBigPromotionMoProcess">
+      <wsdl:input message="tns:WsBigPromotionMoProcessSoapIn" />
+      <wsdl:output message="tns:WsBigPromotionMoProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoViSportWap">
+      <wsdl:input message="tns:WSProcessMoViSportWapSoapIn" />
+      <wsdl:output message="tns:WSProcessMoViSportWapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoViSportWap_New">
+      <wsdl:input message="tns:WSProcessMoViSportWap_NewSoapIn" />
+      <wsdl:output message="tns:WSProcessMoViSportWap_NewSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WSProcessMo">
+      <soap:operation soapAction="http://tempuri.org/WSProcessMo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoThanTai">
+      <soap:operation soapAction="http://tempuri.org/WSProcessMoThanTai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoVClip">
+      <soap:operation soapAction="http://tempuri.org/WSProcessMoVClip" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoSportGame">
+      <soap:operation soapAction="http://tempuri.org/WSProcessMoSportGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WsMo949Process">
+      <soap:operation soapAction="http://tempuri.org/WsMo949Process" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSWorldCupMoProcess">
+      <soap:operation soapAction="http://tempuri.org/WSWorldCupMoProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LiveNewsWorldCupProcess">
+      <soap:operation soapAction="http://tempuri.org/LiveNewsWorldCupProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateGiffCode">
+      <soap:operation soapAction="http://tempuri.org/GenerateGiffCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImportUser">
+      <soap:operation soapAction="http://tempuri.org/ImportUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WsBigPromotionMoProcess">
+      <soap:operation soapAction="http://tempuri.org/WsBigPromotionMoProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoViSportWap">
+      <soap:operation soapAction="http://tempuri.org/WSProcessMoViSportWap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoViSportWap_New">
+      <soap:operation soapAction="http://tempuri.org/WSProcessMoViSportWap_New" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WSProcessMo">
+      <soap12:operation soapAction="http://tempuri.org/WSProcessMo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoThanTai">
+      <soap12:operation soapAction="http://tempuri.org/WSProcessMoThanTai" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoVClip">
+      <soap12:operation soapAction="http://tempuri.org/WSProcessMoVClip" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoSportGame">
+      <soap12:operation soapAction="http://tempuri.org/WSProcessMoSportGame" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WsMo949Process">
+      <soap12:operation soapAction="http://tempuri.org/WsMo949Process" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSWorldCupMoProcess">
+      <soap12:operation soapAction="http://tempuri.org/WSWorldCupMoProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LiveNewsWorldCupProcess">
+      <soap12:operation soapAction="http://tempuri.org/LiveNewsWorldCupProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateGiffCode">
+      <soap12:operation soapAction="http://tempuri.org/GenerateGiffCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImportUser">
+      <soap12:operation soapAction="http://tempuri.org/ImportUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WsBigPromotionMoProcess">
+      <soap12:operation soapAction="http://tempuri.org/WsBigPromotionMoProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoViSportWap">
+      <soap12:operation soapAction="http://tempuri.org/WSProcessMoViSportWap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WSProcessMoViSportWap_New">
+      <soap12:operation soapAction="http://tempuri.org/WSProcessMoViSportWap_New" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://sv167.vmgmedia.vn:8000/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://sv167.vmgmedia.vn:8000/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

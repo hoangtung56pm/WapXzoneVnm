@@ -1,0 +1,354 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+wurflApi
+</name>
+</assembly>
+<members>
+<member name="M:wurflApi.capabilitiesGetter.#ctor(wurflApi.deviceFileProcessor@)">
+ -----------------------------------------------------------------------------
+ <summary>
+		Default Constructor.Get variables from deviceFileProcessor
+ </summary>
+	<param name="oDeviceFileProcessor">A deviceFileProcessor object</param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	14/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.destroy">
+ -----------------------------------------------------------------------------
+ <summary>
+ Release all variables
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.getCapability(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets a value from a given capability
+ </summary>
+	<param name="sCapability">String with capability name</param>
+	<returns>String with the value of a capability</returns>
+	<remarks>If the capability searched not exists thow an exception
+ </remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.getAllCapabilities">
+ -----------------------------------------------------------------------------
+ <summary>
+ Returns all cApabilities
+ </summary>
+	<returns>Hashtable with all capabilities</returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.prepareNavigatorModelCapabilities(System.Web.HttpRequest)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Prepares the User Agent and the needed variables
+ </summary>
+	<param name="req">The Request object</param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	01/04/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.prepareNavigatorModelCapabilities(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Prepares the User Agent and the needed variables. Fills the variable _hsAllCurrUserAgentCapabilities which has all capabilities of the given user agent
+ </summary>
+	<param name="sUa">String with the user agent</param>
+	<remarks>In real application you MUST use the prepareNavigatorModelCapabilities(Request), because this method is provided only for test purposes.
+ </remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.getModelIdByUserAgent(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+     Function getModelIdByUserAgent returns  
+ </summary>
+	<param name="UserAgent">User Agent string</param>
+	<returns>A string with the model id</returns>
+	<remarks>If not exists sets throws an exception 
+ </remarks>
+	<history>
+ 	[jose]	03/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.getFallBackById(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+     Function getFallBackById returns the fall back of a model
+ </summary>
+	<param name="id">A string with the model id</param>
+	<returns>the fall back model id or ""</returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	03/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.getStringCutBySpecialChars(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+     Function getStringCutBySpecialChars used for try to matching on progressively shorter user agent
+ </summary>
+	<param name="sTmp">A string with the user agent</param>
+	<returns>The user agent cutting at the rightest special characteer</returns>
+	<remarks>if the user agent is Nokia3300/1.0 (3.00) Profile/MIDP-1.0 Configuration/CLDC-1.0
+     returns Nokia3300/1.0 (3.00) Profile/MIDP-1.0 Configuration/CLDC-1
+ </remarks>
+	<history>
+ 	[jose]	03/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.existsCapability(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+     Function existsCapability detects if the capability exists
+ </summary>
+	<param name="sCapName">A string with the name of the capability</param>
+	<returns>[True|False]</returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	03/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.capabilitiesGetter.throwExcep(System.String,System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+  Sub throwExcep throws a exception
+ </summary>
+	<param name="sTxt">Message for the exception</param>
+	<param name="sSourceFunction">Method where the exception happends</param>
+	<remarks>
+	</remarks>
+ 	''' <history>
+ 	[jose]	05/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:wurflApi.capabilitiesGetter">
+ -----------------------------------------------------------------------------
+ Project	 : wurflApi
+ Class	 : capabilitiesGetter
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ The class for get capabilities. In the constructor you must pass a deviceFileProcessor object
+ </summary>
+	<remarks>
+	</remarks>
+	<example>
+ Getting the wurfl.xml from bin directoy and returns the value of max_image_width of the current request
+ <code>
+ Dim oDevProc As New wurflApi.deviceFileProcessor
+ Dim oCapGet As New wurflApi.capabilitiesGetter(oDevProc)
+ oCapGet.prepareNavigatorModelCapabilities(Request)
+ Response.Write(oCapGet.getCapability("max_image_width"))
+ </code>
+	</example>
+	<example>
+ Getting the wurfl.xml from a given path and returns the value of all capabilities of the current request
+ <code>
+ Dim oDevProc As New wurflApi.deviceFileProcessor
+ Dim oCapGet As New wurflApi.capabilitiesGetter(oDevProc)
+ oCapGet.prepareNavigatorModelCapabilities(Request)
+ Dim sdAllCaps As StringDictionary = oCapGet.getAllCapabilities
+ Dim sRet As String
+ For Each de As DictionaryEntry In sdAllCaps
+		Response.Write("<b>" + de.Key.ToString + "</b>=" + de.Value.ToString + "<br/>")
+ Next
+ </code>
+	</example>
+	<history>
+ 	[jose]	29/06/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.deviceFileProcessor.#ctor">
+ -----------------------------------------------------------------------------
+ <summary>
+     Default constructor
+ </summary>
+	<remarks>If wurflFilePath wasn't provided then applicationPath/bin/wurfl.xml assumed
+ </remarks>
+	<history>
+ 	[jose]	03/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.deviceFileProcessor.#ctor(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Load the wurfl file and create the capabilityMatrix
+ </summary>
+	<param name="wurflFilePath">If wurflFilePath wasn't provided then applicationPath/bin/wurfl.xml assumed</param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:wurflApi.deviceFileProcessor.getsdUserAgentAndId">
+ -----------------------------------------------------------------------------
+ <summary>
+ Hashtable with the pair User agent and Id
+ </summary>
+	<value></value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:wurflApi.deviceFileProcessor.getsdIdAndFallback">
+ -----------------------------------------------------------------------------
+ <summary>
+ Hashtable with the pair Id and Fallback
+ </summary>
+	<value></value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:wurflApi.deviceFileProcessor.getslIdAndCapabilities">
+ -----------------------------------------------------------------------------
+ <summary>
+ SortedList with the id and a hashtable with its properties
+ </summary>
+	<value></value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:wurflApi.deviceFileProcessor.getAlCapNames">
+ -----------------------------------------------------------------------------
+ <summary>
+ ArrayList with the capabilities names
+ </summary>
+	<value></value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:wurflApi.deviceFileProcessor.getIsXMLFileReady">
+ -----------------------------------------------------------------------------
+ <summary>
+ Boolean that indicate if the wurfl.xml was loaded succefully
+ </summary>
+	<value>True|False</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.deviceFileProcessor.getDefaultAdaptiaFilePath">
+ -----------------------------------------------------------------------------
+ <summary>
+ The default path to wurfl file
+ </summary>
+	<returns>String to the application/bin/wurfl.xml</returns>
+	<remarks>Used for try to find the wurfl file if the value of wurflFilePath in the configuration file was not valid or was not provided
+ </remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.deviceFileProcessor.prepareCapabilityMatrix(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Prepares all the variables used into by the capabilitiesGetter class
+ </summary>
+	<param name="wurflFilePath">Path to the wurfl file</param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:wurflApi.deviceFileProcessor.throwExcep(System.String,System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+  Sub throwExcep throws a exception
+ </summary>
+	<param name="sTxt">Message for the exception</param>
+	<param name="sSourceFunction">Method where the exception happends</param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[jose]	05/02/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:wurflApi.deviceFileProcessor">
+ -----------------------------------------------------------------------------
+ Project	 : wurflApi
+ Class	 : deviceFileProcessor
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Prepares all the variables used by the capabilitiesGetter class. There are two constructors. The first, without any parameters takes the path to the wurfl file from the bin directory of the application. In the second you pass the path
+ </summary>
+	<remarks>
+	</remarks>
+	<example>Without path
+ <code>
+ Dim oDevProc As New wurflApi.deviceFileProcessor()
+ </code>
+	</example>
+	<example>Getting the path from the configuration file(Ex:web.config)
+ <code>
+ Dim oDevProc As New wurflApi.deviceFileProcessor(ConfigurationSettings.AppSettings("wurflFilePath"))
+ </code>
+	</example>
+	<history>
+ 	[jose]	25/05/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

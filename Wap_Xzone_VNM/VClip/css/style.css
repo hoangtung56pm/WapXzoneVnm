@@ -1,0 +1,462 @@
+/**
+ * HTML/CSS Slicer - JQUERY PLUGIN
+ *
+ * @category   CSS
+ * @package    APP MOBILE
+ * @author     KienNT <kien.hnaptech@gmail.com>
+ * @phone      0902002710
+ * @Skype      kien.ppt
+ * @Yahoo      aptech.vietnam
+ * @version    CSS 2.1 / CSS 3 / HTML5
+ */
+
+/* ================== reset css ================== */
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+/* ============================ define Css ========================= */
+
+body {font-family: arial,tahoma;font-size: 12px;line-height: 16px;color: #555;background: #ededed;}
+a,button,a:link,
+a:active,button:active,
+a:focus,button:focus,
+a:visited,button:visited,
+a:target,button:target,
+a:hover,button:hover  {text-decoration: none;cursor: pointer;outline: none;}
+
+/**
+ * HTML/CSS Slicer - JQUERY PLUGIN
+ *
+ * @category   CSS
+ * @sub        HEADER
+ * @author     KienNT <kien.hnaptech@gmail.com>
+ * @phone      0902002710
+ * @Skype      kien.ppt
+ * @Yahoo      aptech.vietnam
+ * @version    CSS 2.1 / CSS 3 / HTML5
+ */
+
+header {float: left;width: 100%;background: #2a2a2a url(../images/bg_header.png) repeat;z-index: 99;left: 0;top: 0;height: 70px;border-top: 1px solid #2a2a2a;}
+header .logo {float: left;position: absolute;left: 1.5%;top: 3px;}
+header .categoryIcon {float: left;width: 30px;height: 26px;background: url(../images/icon_category.png) no-repeat left top;position: absolute;right: 1.5%;top: 9px;}
+header .categoryIcon:hover {background-position: left bottom;}
+header .mobile {display: block;text-align: center;padding: 13px 0 0 0;}
+header .mobile label {display: inline-block;background: url(../images/bg-sim.png) repeat-x;padding: 0 9px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;}
+header .mobile label span {display: inline-block;background: url(../images/icon-sim.png) no-repeat left 3px;padding: 0 0 0 14px;color: #afafaf;font-size: 11px;line-height: 23px;}
+
+/* header nav {float: left;width: 100%;overflow: hidden;height: 29px;line-height: 29px;background: url(../images/bgNav.png) repeat-x;margin: 9px 0 0 0;} */
+header nav {float: left;width: 100%;overflow: hidden;
+            
+            height:25px; /*29px */
+            line-height:25px; /*29px*/
+            
+            background: url(../images/bgrtop2.gif) repeat-x;margin: 9px 0 0 0;}
+
+header nav label {width: 102%;float: left;}
+
+header nav a {float: left;width: 33%;font-size: 12px;color: #fff;text-align: center;
+              
+              /* border-right: 1px solid #e3433b; */
+              border-right: 1px solid;
+              height:25px; /* Add here */
+              }
+
+header nav.navPage a {width: 24.5%;}
+header nav a:last-child {background: none;}
+header nav a span {display: block;}
+header nav a:hover span ,
+header nav a:focus span ,
+header nav a:active span,
+header nav a.active span {background: #c0d062;color: #272727;}
+
+header formWap {float: left;width: 97%;position: relative;
+                /* padding: 4px 1.5% 5px 1.5%; */
+                padding: 8px 1.5% 5px 1.5%; /* Add here */
+                
+                background: #363636;}
+header formWap .btn-search 
+{
+	float: left;
+	position: absolute;
+	right: 1.5%;
+	top: 4px;
+	z-index: 9;
+	width: 32px;
+	height: 25px;
+	border: none;
+	/* background: #fff url(../images/icon_search.png) no-repeat center; */
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding-right:6px;
+	/* padding-top:3px; */
+	padding-top:6px;
+	}
+header formWap .ip-search {height: 25px;line-height: 25px; border: none;background: #fff;color: #4d4d4d;width: 100%;text-indent: 10px;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+
+/**
+ * HTML/CSS Slicer - JQUERY PLUGIN
+ *
+ * @category   CSS
+ * @sub        MAIN
+ * @author     KienNT <kien.hnaptech@gmail.com>
+ * @phone      0902002710
+ * @Skype      kien.ppt
+ * @Yahoo      aptech.vietnam
+ * @version    CSS 2.1 / CSS 3 / HTML5
+ */
+
+.main-container {float: left;width: 100%;height: auto;position: relative;z-index: 1;margin: 0px 0 0 0;background: #f8f8f8;}
+
+.listVideo {}
+        .listVideo li {float: left;width: 96%;padding: 8px 2.5% 8px 1.5%;border-top:1px solid #fff;border-bottom:1px solid #cfcfcf;}
+        .list-category li {border-bottom: 1px solid #000;border-top: 1px solid #494949;height: auto;min-height: 40px;}
+        .item {float: left;width: 100%;position: relative;height: auto;min-height: 65px;}
+        .imgVideo {float: left;width: 88px;height: 65px;position: absolute;left: 0;top: 0;overflow: hidden;}
+        .imgVideo img {float: left;width: 88px;}
+        .imgVideo span {float: left;position: absolute;right:3px;bottom:3px;background: #000;color: #fff;font-size: 10px;font-weight: bold;padding: 1px 2px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;line-height: 11px;}
+        .descVideo {display: block;padding: 0 35px 0 98px;}
+        .descVideo h2 a {font-weight: bold;color: #000;}
+        .descVideo h2 a:hover ,
+        .descVideo h2 a:focus,
+        .descVideo h2 a:active,
+        .descVideo h2 a.active 
+        {
+        	/* color: #c80303; */
+        	color: #F79720;
+        }
+        .viewDetail {float: left;position: absolute;right: 0;top: 16px;width: 30px;height: 30px;background: url(../images/icon_detail.png) no-repeat;text-indent: -9999px;}
+        .viewDetail:hover ,
+        .viewDetail:focus,
+        .viewDetail:active,
+        .viewDetail.active {filter: alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+                        
+        .eye {display: inline-block;background: url(../images/icon_eye.png) no-repeat left center;padding: 0 0 0 18px;line-height: 12px;color: #898989;font-size: 11px;margin: 4px 6px 0 0;}
+        .strong {display: inline-block;background: url(../images/icon_save.png) no-repeat left 2px;padding: 0 0 0 14px;line-height: 15px;color: #898989;font-size: 11px;margin: 4px 6px 0 0;}
+        .like {display: inline-block;background: url(../images/icon_like.png) no-repeat left 0;padding: 0 0 0 16px;line-height: 15px;color: #898989;font-size: 11px;margin: 4px 6px 0 0;}
+        .time {display: inline-block;background: #8f8f8f;color: #fff;font-size: 10px;font-weight: bold;padding: 1px 2px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;line-height: 11px;margin: 0 6px 0 0;}
+        .rate  {display: inline-block; height: 12px;width: 70px;background: url(../images/bg-star.png) repeat-x left top;margin-right: 5px;vertical-align: middle;}
+        .rate span {display: inline-block;height: 12px; background: url(../images/bg-star-red.png) repeat-x left top;}
+        
+        .hoverState {float: left;width: 1.5%;background: #aaa;position: absolute;right: -2.3%;top: 0;display: none;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+        
+.topToolbar {float: left;width: 100%;background: #171717;padding: 4px 0;}
+        .topToolbar p {padding: 0 1.5%;}
+        .back {float: left;color: #fff;font-size: 12px;padding: 0 0 0 25px;background: url(../images/icon-back.png) no-repeat left center;line-height: 15px;font-weight: bold;margin: 2px 0 0 0;}
+        .btn-like {float: right;color: #fff;font-size: 12px;padding: 0 22px 0 0;background: url(../images/icon-like.png) no-repeat right top;line-height: 21px;font-weight: bold;}
+        .topToolbar a:hover ,
+        .topToolbar a:focus ,
+        .topToolbar a:active ,
+        .topToolbar a.active {color: red;}
+        
+.videoDetail {float: left;width: 100%;position: relative;padding-bottom: 8px;background: #000;}
+        .videoDetail img {float: left;width: 100%;border: none;}
+        .videoDetail .btn-play {float: left;width: 66px;height: 66px;background: url(../images/icon-play.png) no-repeat;text-indent: -9999px;position: absolute;z-index: 10;top: 50%;left: 50%;margin: -37px 0 0 -33px;}
+        .videoDetail .btn-play:hover ,
+        .videoDetail .btn-play:focus ,
+        .videoDetail .btn-play:active ,
+        .videoDetail .btn-play.active {filter: alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+        
+        .processBar {float: left;width: 60%;position: absolute;z-index: 11;bottom: 16px;left: 20%;text-align: center;color: #fff;font-weight: bold;font-size: 12px;}
+        .processBar label {display: block;padding: 0 0 4px 0;}
+        .processBar p {float: left;width: 100%;background: #141517;padding: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+        .processBar span {background: #a0c254;float: left;height: 4px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+        
+        .videotime {float: left;position: absolute;z-index: 12;right: 0;bottom: 8px;background: #000;color: #fff;font-size: 14px;font-weight: bold;padding: 2px 4px;filter: alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+        
+        .otherVideo {float: left;width: 97%;padding: 7px 1.5%;background: #363636;font-size: 11px;color: #fff;font-weight: bold;}
+        
+.detail {float: left;width: 97%;padding: 5px 1.5% 14px 1.5%;background: #eeeeee;border-bottom: 1px solid #e0e0e0;color: #3b3b3b;font-size: 11px;}
+        .detail h2 {color: #000;font-size: 14px;font-weight: bold;line-height: 20px;display: block;padding: 0 0 4px 0;}
+        
+.download {float: left;width: 86%;padding: 15px 7% 22px 7%;background: #eee;border-bottom: 1px solid #dddddd;}
+        .listOption {float: left;width: 100%;list-style: none;}
+        .listOption li 
+        {
+        		float: left;
+        		/*width: 23%; */
+        		width:40%;
+        		padding: 0 5%;text-align: center;}
+        		
+        .listOption li b {display: block;
+                          
+                          /*background: #d5263d; */
+                          background:orange;
+                          /*color: #ffd800;*/
+                          color: white;
+                          
+                          font-size: 14px;font-weight: bold;padding: 3px 0;}
+        
+        .listOption li label {display: block;font-size: 11px;color: #3d3d3d;line-height: 30px;padding: 3px 0;background: #fff;-webkit-box-shadow:  1px 1px 2px 0px #bbbbbb;box-shadow:  1px 1px 2px 0px #bbbbbb;}
+        .listOption li label span {line-height: 15px;display: block;}
+
+.showDesc {float: left;width: 97%;padding: 0 1.5% 4px 1.5%;border-top: 1px solid #fff;background: #eee;}
+        .showDesc .center {margin: -1px 0 0 0;}
+        .descriptions {float: left;width: 100%;padding: 10px 0;}
+        .openDesc { display: inline-block;font-size: 11px;color: #707070;line-height: 16px;padding: 3px 12px 1px 12px;border-bottom: 1px solid #999;
+        background: #ffffff; /* Old browsers */
+        background: -moz-linear-gradient(top,  #ffffff 0%, #dbdbdb 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dbdbdb)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #ffffff 0%,#dbdbdb 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #ffffff 0%,#dbdbdb 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #ffffff 0%,#dbdbdb 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #ffffff 0%,#dbdbdb 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        }
+        .openDesc:hover,
+        .openDesc:focus,
+        .openDesc:active,
+        .openDesc.active {background: #fff;color: #000;}
+
+.boxRegister {background: #fff;border: 2px solid #b5b5b5;-webkit-border-radius: 11px;-moz-border-radius: 11px;border-radius: 11px;padding: 0 0 12px 0;}
+        .title-popup {display: block;margin-bottom: 25px; background: url(../images/title-popup.png) repeat-x;color: #535353;font-size: 16px;font-weight: bold;text-transform: uppercase;line-height: 37px;text-align: center;-webkit-border-top-left-radius: 11px;-webkit-border-top-right-radius: 11px;-moz-border-radius-topleft: 11px;-moz-border-radius-topright: 11px;border-top-left-radius: 11px;border-top-right-radius: 11px;}
+        .form-list {float: left;width: 80%;padding: 0 10% 14px 10%;color: #565656;line-height: 15px;font-size: 12px;}
+        .form-list .field {float: left;width: 100%;padding: 6px 0 4px 0;font-weight: bold;}
+        .ipForm {width: 100%;border: 1px solid #cfcfcf;border-left: 2px solid #cfcfcf;border-top: 2px solid #cfcfcf;height: 26px;line-height: 26px;font-size: 12px;text-indent: 12px;width: 100%;}
+        .button-form {float: left;padding: 6px;line-height: 18px;border: 1px solid #d9d9d9;background: #f4f4f4;color: #565656;font-weight: bold;margin: 12px 0 0 0;cursor: pointer; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+        .button-form:hover ,
+        .button-form:focus ,
+        .button-form:active ,
+        .button-form.active {background: #f7f7f7;color: #000;}
+        .form-list li {float: left;width: 100%;}
+        .form-list li.forgotText {padding: 0 0 15px 0;}
+        .form-list li b {font-weight: bold;}
+        
+/**
+ * HTML/CSS Slicer - JQUERY PLUGIN
+ *
+ * @category   CSS
+ * @sub        FOOTER
+ * @author     KienNT <kien.hnaptech@gmail.com>
+ * @phone      0902002710
+ * @Skype      kien.ppt
+ * @Yahoo      aptech.vietnam
+ * @version    CSS 2.1 / CSS 3 / HTML5
+ */
+
+footer {float: left;width: 100%;background: #2a2a2a url(../images/bg_header.png) repeat;text-align: center;color: #8c8c8c;font-size: 11px;text-align: center;padding: 16px 0 10px 0;}
+
+
+/**
+ * HTML/CSS Slicer - JQUERY PLUGIN
+ *
+ * @category   CSS
+ * @sub        OVERLAY
+ * @author     KienNT <kien.hnaptech@gmail.com>
+ * @phone      0902002710
+ * @Skype      kien.ppt
+ * @Yahoo      aptech.vietnam
+ * @version    CSS 2.1 / CSS 3 / HTML5
+ */
+
+.overlay-wrap{background:transparent url(../images/bg-overlay.png) repeat;position:fixed;top:0px;bottom:0px;left:0px;right:0px;z-index:1000;filter: alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5;}
+.overlay-conten{position:fixed;left:5%;top: -1000px;z-index:1101;float: left;width: 90%;}
+a.boxclose{float:right;width:30px;height:29px;background:transparent url(../images/close-box.png) no-repeat;position: absolute;right: -14px;top: -14px;cursor:pointer;}
+
+.listCat {display: block;background: #fff;border: 2px solid #b5b5b5;-webkit-border-radius: 11px;-moz-border-radius: 11px;border-radius: 11px;padding: 6px 0 8px 0;}
+.listCat li {padding: 0 12px 0 18px;display: block;}
+.listCat li h3 {display: block;border-bottom: 1px solid #e1e1e1;padding: 0 8px 0 0;}
+.listCat li h3 a {color: #000;font-weight: bold;font-size: 14px;line-height: 18px;display: 
+                  block;padding: 9px 15px 9px 0;background: url(../images/arr-cat.png) no-repeat right center;}
+.listCat li h3 a:hover ,
+.listCat li h3 a:focus,
+.listCat li h3 a:active,
+.listCat li h3 a.active {background: url(../images/arr-cat-act.png) no-repeat right center;
+                         /* color: #c80303; */
+                         color:#F79720; /* Add here */
+                         }
+.listCat li:last-child h3 {border: none;}
+
+/* =========================================================== */
+
+.button {border: none;cursor: pointer;outline: none;text-indent: -9999px;}
+
+.clear {clear: both;}
+.Fl {float: left;}
+.Fr {float: right;}
+.justify {text-align: justify;}
+.center {text-align: center;}
+.left {text-align: left;}
+.capitalize {text-transform:capitalize;}
+.uppercase {text-transform: uppercase;}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.normal {font-weight: normal;}
+.middle {vertical-align: middle;}
+.overflow {overflow: hidden;}
+.relative {position: relative;}
+
+.block {display: block;}
+
+.line {float: left;width: 100%;}
+
+/**
+ * HTML/CSS Slicer - JQUERY PLUGIN
+ *
+ * @category   CSS
+ * @package    End file :D
+ * @author     KienNT <kien.hnaptech@gmail.com>
+ * @phone      0902002710
+ * @Skype      kien.ppt
+ * @Yahoo      aptech.vietnam
+ * @version    CSS 2.1 / CSS 3 / HTML5
+ */
+ 
+ 
+ /* Add css */
+ .link-non-black
+{
+	text-decoration :none;
+	color:#424242;
+}
+
+.link-non-white
+{
+	text-decoration :none;
+	color:#FFFFFF;
+}
+
+.link-non-black-bold
+{
+	text-decoration :none;
+	color:#000000;
+}
+
+.link-non-black-bold-dk
+{
+	text-decoration :none;
+	color:red;
+	font-weight:bold;
+}
+
+.link-non-orange-bold-dk
+{
+	text-decoration :none;
+	color:orange;
+	font-weight:bold;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.orange {
+	color:#000000;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/* 
+.item {
+	text-align:justify;
+	margin:2px 0;
+}
+
+.item a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+*/
+
+.pagging
+{
+	text-align: center;
+	font-size: 13px;
+}
+
+.pagging a
+{
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #5f5f5f;
+}
+
+.pagging a:hover
+{
+	color: #C2032A;
+	text-decoration: underline;
+}
+
+.pagging .selected
+{
+	color: #C2032A;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+{
+	clear: both;
+}
+.clear1px
+{
+	clear: both;
+	height: 1px;
+}
+.clear2px
+{
+	clear: both;
+	height: 2px;
+}
+.clear3px
+{
+	clear: both;
+	height: 3px;
+}
+.clear4px
+{
+	clear: both;
+	height: 4px;
+}
+.clear5px
+{
+	clear: both;
+	height: 5px;
+}
+
+.clear10px
+{
+	clear: both;
+	height: 10px;
+}
+
+.boxcontent
+{
+	width: 95%;
+	padding: 5px 3% 5px 2%;
+}

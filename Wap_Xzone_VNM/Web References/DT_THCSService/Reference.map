@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://123.30.181.21:8080/THCSService.svc?wsdl" filename="ServiceController.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://123.30.181.21:8080/THCSService.svc?disco" filename="THCSService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://123.30.181.21:8080/THCSService.svc?xsd=xsd0" filename="THCSService.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://123.30.181.21:8080/THCSService.svc?xsd=xsd1" filename="THCSService0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://123.30.181.21:8080/THCSService.svc?xsd=xsd2" filename="THCSService1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<wurfl_manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <version>
+    <ver>Pla.NET manifest v1</ver>
+    <last_updated>16-Feb-2007</last_updated>
+    <description>
+      This is a manifest file that describes how Pla.NET portal engine 
+      uses Wurfl and patch stucture to separate offfical data from private data
+    </description>
+  </version>
+  <wurfl src="wurfl.xml" patches="CustomPatch.xml" />
+  <wurfl_patch src="web_browsers_patch.xml" patches="CustomPatch.xml" />
+  <wurfl_patch src="CustomPatch.xml" patches="CustomPatch.xml" />
+</wurfl_manifest>

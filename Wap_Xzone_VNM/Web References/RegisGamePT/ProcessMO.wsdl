@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SMSMOReceiver">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SMSMOReceiverResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SMSMOReceiverResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SMSMOReceiver_VoiceChat">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Command_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Service_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Request_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SMSMOReceiver_VoiceChatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SMSMOReceiver_VoiceChatResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SMSMOReceiverSoapIn">
+    <wsdl:part name="parameters" element="tns:SMSMOReceiver" />
+  </wsdl:message>
+  <wsdl:message name="SMSMOReceiverSoapOut">
+    <wsdl:part name="parameters" element="tns:SMSMOReceiverResponse" />
+  </wsdl:message>
+  <wsdl:message name="SMSMOReceiver_VoiceChatSoapIn">
+    <wsdl:part name="parameters" element="tns:SMSMOReceiver_VoiceChat" />
+  </wsdl:message>
+  <wsdl:message name="SMSMOReceiver_VoiceChatSoapOut">
+    <wsdl:part name="parameters" element="tns:SMSMOReceiver_VoiceChatResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ProcessMOSoap">
+    <wsdl:operation name="SMSMOReceiver">
+      <wsdl:input message="tns:SMSMOReceiverSoapIn" />
+      <wsdl:output message="tns:SMSMOReceiverSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SMSMOReceiver_VoiceChat">
+      <wsdl:input message="tns:SMSMOReceiver_VoiceChatSoapIn" />
+      <wsdl:output message="tns:SMSMOReceiver_VoiceChatSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProcessMOSoap" type="tns:ProcessMOSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SMSMOReceiver">
+      <soap:operation soapAction="http://tempuri.org/SMSMOReceiver" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SMSMOReceiver_VoiceChat">
+      <soap:operation soapAction="http://tempuri.org/SMSMOReceiver_VoiceChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProcessMOSoap12" type="tns:ProcessMOSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SMSMOReceiver">
+      <soap12:operation soapAction="http://tempuri.org/SMSMOReceiver" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SMSMOReceiver_VoiceChat">
+      <soap12:operation soapAction="http://tempuri.org/SMSMOReceiver_VoiceChat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProcessMO">
+    <wsdl:port name="ProcessMOSoap" binding="tns:ProcessMOSoap">
+      <soap:address location="http://sv56.vmgmedia.vn:8000/ProcessMO.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProcessMOSoap12" binding="tns:ProcessMOSoap12">
+      <soap12:address location="http://sv56.vmgmedia.vn:8000/ProcessMO.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

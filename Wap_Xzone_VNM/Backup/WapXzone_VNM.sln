@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WapXzone_VNM", "WapXzone_VNM.csproj", "{145DC7B4-2867-4F9E-98ED-EDC4348B1FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3GChargingWebService", "..\3GChargingWebService\3GChargingWebService.csproj", "{B04E031E-6276-463B-9088-C8F3E17EE84D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{145DC7B4-2867-4F9E-98ED-EDC4348B1FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145DC7B4-2867-4F9E-98ED-EDC4348B1FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145DC7B4-2867-4F9E-98ED-EDC4348B1FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145DC7B4-2867-4F9E-98ED-EDC4348B1FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04E031E-6276-463B-9088-C8F3E17EE84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04E031E-6276-463B-9088-C8F3E17EE84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04E031E-6276-463B-9088-C8F3E17EE84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04E031E-6276-463B-9088-C8F3E17EE84D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

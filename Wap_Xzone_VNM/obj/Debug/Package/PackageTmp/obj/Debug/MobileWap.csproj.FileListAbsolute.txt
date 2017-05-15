@@ -1,0 +1,21 @@
+D:\Working Data\WAP\MobileWap\MobileWap\bin\MobileWap.dll
+D:\Working Data\WAP\MobileWap\MobileWap\bin\MobileWap.pdb
+D:\Working Data\WAP\MobileWap\MobileWap\obj\Debug\ResolveAssemblyReference.cache
+D:\Working Data\WAP\MobileWap\MobileWap\obj\Debug\MobileWap.dll
+D:\Working Data\WAP\MobileWap\MobileWap\obj\Debug\MobileWap.pdb
+E:\Data\VASC\WAP\MobileWap\MobileWap\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\VASC\WAP\MobileWap\MobileWap\obj\Debug\MobileWap.dll
+E:\Data\VASC\WAP\MobileWap\MobileWap\bin\MobileWap.dll
+E:\Data\VASC\WAP\MobileWap\MobileWap\bin\MobileWap.pdb
+E:\Data\VASC\WAP\MobileWap\MobileWap\bin\wurflApi.dll
+E:\Data\VASC\WAP\MobileWap\MobileWap\bin\wurflApi.pdb
+E:\Data\VASC\WAP\MobileWap\MobileWap\bin\wurflApi.xml
+E:\Data\VASC\WAP\MobileWap\MobileWap\obj\Debug\MobileWap.pdb
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\bin\MobileWap.dll
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\bin\MobileWap.pdb
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\bin\wurflApi.dll
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\bin\wurflApi.pdb
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\bin\wurflApi.xml
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\obj\Debug\MobileWap.dll
+D:\WorkingNET\VMG\WAP\MobileWap\MobileWap\obj\Debug\MobileWap.pdb

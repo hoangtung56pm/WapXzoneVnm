@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="add_MoneyByUsername">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="money" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="add_MoneyByUsernameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="add_MoneyByUsernameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="kick_UserOnline">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="kick_UserOnlineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="kick_UserOnlineResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setStatusUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="status_old" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="status_new" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phonenumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setStatusUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="setStatusUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="topupMoneyByPortal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="money" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="topupDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userGate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="transID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="paymentGate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="topupMoneyByPortalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="topupMoneyByPortalResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="wapGetTopupList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="security" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wapGetTopupListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wapGetTopupListResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="wapGetTopupListByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="topupid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="security" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wapGetTopupListByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wapGetTopupListByIDResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wapTopupMoney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="keyword" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="shortcode" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="money" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="transID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="security" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wapTopupMoneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wapTopupMoneyResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wapGetNotifyMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usergame" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="security" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wapGetNotifyMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wapGetNotifyMessageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="testArray">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="testArrayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="testArrayResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="add_MoneyByUsernameSoapIn">
+    <wsdl:part name="parameters" element="tns:add_MoneyByUsername" />
+  </wsdl:message>
+  <wsdl:message name="add_MoneyByUsernameSoapOut">
+    <wsdl:part name="parameters" element="tns:add_MoneyByUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="kick_UserOnlineSoapIn">
+    <wsdl:part name="parameters" element="tns:kick_UserOnline" />
+  </wsdl:message>
+  <wsdl:message name="kick_UserOnlineSoapOut">
+    <wsdl:part name="parameters" element="tns:kick_UserOnlineResponse" />
+  </wsdl:message>
+  <wsdl:message name="setStatusUserSoapIn">
+    <wsdl:part name="parameters" element="tns:setStatusUser" />
+  </wsdl:message>
+  <wsdl:message name="setStatusUserSoapOut">
+    <wsdl:part name="parameters" element="tns:setStatusUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="topupMoneyByPortalSoapIn">
+    <wsdl:part name="parameters" element="tns:topupMoneyByPortal" />
+  </wsdl:message>
+  <wsdl:message name="topupMoneyByPortalSoapOut">
+    <wsdl:part name="parameters" element="tns:topupMoneyByPortalResponse" />
+  </wsdl:message>
+  <wsdl:message name="wapGetTopupListSoapIn">
+    <wsdl:part name="parameters" element="tns:wapGetTopupList" />
+  </wsdl:message>
+  <wsdl:message name="wapGetTopupListSoapOut">
+    <wsdl:part name="parameters" element="tns:wapGetTopupListResponse" />
+  </wsdl:message>
+  <wsdl:message name="wapGetTopupListByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:wapGetTopupListByID" />
+  </wsdl:message>
+  <wsdl:message name="wapGetTopupListByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:wapGetTopupListByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="wapTopupMoneySoapIn">
+    <wsdl:part name="parameters" element="tns:wapTopupMoney" />
+  </wsdl:message>
+  <wsdl:message name="wapTopupMoneySoapOut">
+    <wsdl:part name="parameters" element="tns:wapTopupMoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="wapGetNotifyMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:wapGetNotifyMessage" />
+  </wsdl:message>
+  <wsdl:message name="wapGetNotifyMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:wapGetNotifyMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="testArraySoapIn">
+    <wsdl:part name="parameters" element="tns:testArray" />
+  </wsdl:message>
+  <wsdl:message name="testArraySoapOut">
+    <wsdl:part name="parameters" element="tns:testArrayResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="add_MoneyByUsername">
+      <wsdl:input message="tns:add_MoneyByUsernameSoapIn" />
+      <wsdl:output message="tns:add_MoneyByUsernameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="kick_UserOnline">
+      <wsdl:input message="tns:kick_UserOnlineSoapIn" />
+      <wsdl:output message="tns:kick_UserOnlineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setStatusUser">
+      <wsdl:input message="tns:setStatusUserSoapIn" />
+      <wsdl:output message="tns:setStatusUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserInfo">
+      <wsdl:input message="tns:getUserInfoSoapIn" />
+      <wsdl:output message="tns:getUserInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="topupMoneyByPortal">
+      <wsdl:input message="tns:topupMoneyByPortalSoapIn" />
+      <wsdl:output message="tns:topupMoneyByPortalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wapGetTopupList">
+      <wsdl:input message="tns:wapGetTopupListSoapIn" />
+      <wsdl:output message="tns:wapGetTopupListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wapGetTopupListByID">
+      <wsdl:input message="tns:wapGetTopupListByIDSoapIn" />
+      <wsdl:output message="tns:wapGetTopupListByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wapTopupMoney">
+      <wsdl:input message="tns:wapTopupMoneySoapIn" />
+      <wsdl:output message="tns:wapTopupMoneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wapGetNotifyMessage">
+      <wsdl:input message="tns:wapGetNotifyMessageSoapIn" />
+      <wsdl:output message="tns:wapGetNotifyMessageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="testArray">
+      <wsdl:input message="tns:testArraySoapIn" />
+      <wsdl:output message="tns:testArraySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add_MoneyByUsername">
+      <soap:operation soapAction="http://tempuri.org/add_MoneyByUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="kick_UserOnline">
+      <soap:operation soapAction="http://tempuri.org/kick_UserOnline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setStatusUser">
+      <soap:operation soapAction="http://tempuri.org/setStatusUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserInfo">
+      <soap:operation soapAction="http://tempuri.org/getUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="topupMoneyByPortal">
+      <soap:operation soapAction="http://tempuri.org/topupMoneyByPortal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapGetTopupList">
+      <soap:operation soapAction="http://tempuri.org/wapGetTopupList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapGetTopupListByID">
+      <soap:operation soapAction="http://tempuri.org/wapGetTopupListByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapTopupMoney">
+      <soap:operation soapAction="http://tempuri.org/wapTopupMoney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapGetNotifyMessage">
+      <soap:operation soapAction="http://tempuri.org/wapGetNotifyMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testArray">
+      <soap:operation soapAction="http://tempuri.org/testArray" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add_MoneyByUsername">
+      <soap12:operation soapAction="http://tempuri.org/add_MoneyByUsername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="kick_UserOnline">
+      <soap12:operation soapAction="http://tempuri.org/kick_UserOnline" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setStatusUser">
+      <soap12:operation soapAction="http://tempuri.org/setStatusUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserInfo">
+      <soap12:operation soapAction="http://tempuri.org/getUserInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="topupMoneyByPortal">
+      <soap12:operation soapAction="http://tempuri.org/topupMoneyByPortal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapGetTopupList">
+      <soap12:operation soapAction="http://tempuri.org/wapGetTopupList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapGetTopupListByID">
+      <soap12:operation soapAction="http://tempuri.org/wapGetTopupListByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapTopupMoney">
+      <soap12:operation soapAction="http://tempuri.org/wapTopupMoney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wapGetNotifyMessage">
+      <soap12:operation soapAction="http://tempuri.org/wapGetNotifyMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testArray">
+      <soap12:operation soapAction="http://tempuri.org/testArray" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://dl.waptretho.vn:8080/cskh_ws/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://dl.waptretho.vn:8080/cskh_ws/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

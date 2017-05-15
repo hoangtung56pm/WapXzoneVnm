@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+/* Designer by Huytt-VMGmedia*/
+
+body {font-size: .75em;text-align: center; background: transparent url('../images/bg.gif') repeat left top;}
+
+/*-Interface----------*/
+body.fullwidth div#container { width: 100%; }
+
+div#container {max-width:618px; border:2px #fff solid;margin-left:auto;margin-right:auto;
+border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;
+-moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);-webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);}
+
+div#header{height:67px;width:100%;text-align:center; margin:0 auto 0 auto; overflow:hidden;clear:both; background:transparent url('../images/banner.gif') no-repeat center top;}
+
+div#mainBody{background:#FFF;}
+
+div#content {width:100%;background-color:#fff;height:auto;height:100%;}
+div#content-in {}
+
+div#footer{height:36px;width:100%;overflow:hidden;clear:both; background:transparent url('../images/footer.gif') no-repeat center top;}
+div#footer_center{height:36px;width:100%;margin:0 auto 0 auto;text-align:center; background: transparent url('../images/footer2.gif') no-repeat center top;}
+div#footer_center p{ text-align:center;color: #fff; text-shadow: 1px 1px 1px #620000; line-height: normal; font-weight:bold; font-size:11px; padding:12px 0 0 0;}
+
+/* Clearfix */
+.clearfix:after {clear: both;display: block;content: ".";height: 0;visibility: hidden;}
+* html > body .clearfix {width: 100%;display: block;}
+* html .clearfix {height: 1%;}
+  
+/* Firefox Scrollbar Hack - Do not remove */
+html {margin-bottom: 1px;height: 100%!important;height: auto;}
+

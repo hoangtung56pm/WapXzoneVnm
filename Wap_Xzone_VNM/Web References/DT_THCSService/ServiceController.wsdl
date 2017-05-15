@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="ServiceController" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://123.30.181.21:8080/THCSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://123.30.181.21:8080/THCSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://123.30.181.21:8080/THCSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DataEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceController_QueryDataDCS_Standard_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDataDCS_Standard" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDataDCS_Standard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDataDCS_StandardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDataDCS_Custom_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDataDCS_Custom" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDataDCS_Custom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDataDCS_CustomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryOrderDCS_Standard_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryOrderDCS_Standard" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryOrderDCS_Standard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryOrderDCS_StandardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryOrderDCS_Custom_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryOrderDCS_Custom" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryOrderDCS_Custom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryOrderDCS_CustomResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceController">
+    <wsdl:operation name="QueryDataDCS_Standard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryDataDCS_Standard" message="tns:IServiceController_QueryDataDCS_Standard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryDataDCS_StandardResponse" message="tns:IServiceController_QueryDataDCS_Standard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryDataDCS_Custom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryDataDCS_Custom" message="tns:IServiceController_QueryDataDCS_Custom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryDataDCS_CustomResponse" message="tns:IServiceController_QueryDataDCS_Custom_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderDCS_Standard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryOrderDCS_Standard" message="tns:IServiceController_QueryOrderDCS_Standard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryOrderDCS_StandardResponse" message="tns:IServiceController_QueryOrderDCS_Standard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderDCS_Custom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryOrderDCS_Custom" message="tns:IServiceController_QueryOrderDCS_Custom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryOrderDCS_CustomResponse" message="tns:IServiceController_QueryOrderDCS_Custom_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceController" type="tns:IServiceController">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryDataDCS_Standard">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryDataDCS_Standard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryDataDCS_Custom">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryDataDCS_Custom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderDCS_Standard">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryOrderDCS_Standard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderDCS_Custom">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryOrderDCS_Custom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceController">
+    <wsdl:port name="BasicHttpBinding_IServiceController" binding="tns:BasicHttpBinding_IServiceController">
+      <soap:address location="http://123.30.181.21:8080/THCSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,12 @@
+P:\Wap_Xzone\obj\Debug\ResolveAssemblyReference.cache
+P:\Wap_Xzone\bin\WapXzone.dll
+P:\Wap_Xzone\bin\WapXzone.pdb
+P:\Wap_Xzone\bin\log4net.dll
+P:\Wap_Xzone\bin\VmgPortal.Modules.Adsvertising.dll
+P:\Wap_Xzone\bin\wurflApi.dll
+P:\Wap_Xzone\bin\wurflApi.pdb
+P:\Wap_Xzone\bin\wurflApi.xml
+P:\Wap_Xzone\bin\log4net.xml
+P:\Wap_Xzone\bin\VmgPortal.Modules.Adsvertising.pdb
+P:\Wap_Xzone\obj\Debug\WapXzone.dll
+P:\Wap_Xzone\obj\Debug\WapXzone.pdb

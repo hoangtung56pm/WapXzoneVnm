@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<wurfl_patch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <version>
+    <ver>Marg.Wurfl.WurflManifest runtime changes (CustomPatch.xml)</ver>
+    <last_updated>2007-04-25T09:01:17</last_updated>
+  </version>
+  <devices>
+
+  </devices>
+</wurfl_patch>

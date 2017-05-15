@@ -1,0 +1,829 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="static" priority="59" />
+      <Item value="string" priority="367" />
+      <Item value="HttpContext`0" priority="4" />
+      <Item value="if" priority="340" />
+      <Item value="lang" priority="59" />
+      <Item value="ConvertUtility`0" priority="37" />
+      <Item value="int" priority="30" />
+      <Item value="input" priority="23" />
+      <Item value="UnicodeUtility`0" priority="8" />
+      <Item value="return" priority="65" />
+      <Item value="Convert`0" priority="11" />
+      <Item value="Page`0" priority="0" />
+      <Item value="Page" priority="45" />
+      <Item value="dt" priority="67" />
+      <Item value="null" priority="95" />
+      <Item value="rptTinTuc" priority="1" />
+      <Item value="public" priority="59" />
+      <Item value="AppEnv`0" priority="270" />
+      <Item value="urlData" priority="1" />
+      <Item value="img" priority="0" />
+      <Item value="avatar" priority="9" />
+      <Item value="Eval`0" priority="163" />
+      <Item value="else" priority="187" />
+      <Item value="protected" priority="105" />
+      <Item value="rptGame" priority="1" />
+      <Item value="dtHottest" priority="8" />
+      <Item value="cpConfig" priority="4" />
+      <Item value="rptLienKet" priority="0" />
+      <Item value="rptLienket_ItemDataBound`0" priority="0" />
+      <Item value="litNgonNgu" priority="0" />
+      <Item value="currentUrl" priority="3" />
+      <Item value="dtLatest" priority="4" />
+      <Item value="rptVideo" priority="4" />
+      <Item value="Literal`0" priority="41" />
+      <Item value="e" priority="38" />
+      <Item value="lit" priority="6" />
+      <Item value="rptlastest_ItemDataBound`0" priority="1" />
+      <Item value="width" priority="52" />
+      <Item value="litGame" priority="0" />
+      <Item value="gameUrl" priority="0" />
+      <Item value="litMusic" priority="1" />
+      <Item value="musicUrl" priority="0" />
+      <Item value="clipUrl" priority="0" />
+      <Item value="litClip" priority="0" />
+      <Item value="rawUrl" priority="0" />
+      <Item value="rptTheLoaiGame" priority="2" />
+      <Item value="lnkCatLink" priority="1" />
+      <Item value="rptCategory_ItemDataBound`0" priority="2" />
+      <Item value="DataTable`0" priority="52" />
+      <Item value="rptTaiNhieuNhat" priority="5" />
+      <Item value="rptTaiNhieuNhat_ItemDataBound`0" priority="0" />
+      <Item value="rptMoiCapNhat" priority="3" />
+      <Item value="UrlProcess`0" priority="64" />
+      <Item value="hotro" priority="9" />
+      <Item value="lnkXemThem" priority="1" />
+      <Item value="gameLink" priority="0" />
+      <Item value="dtlatest" priority="4" />
+      <Item value="rptlastest" priority="0" />
+      <Item value="CurrentRow" priority="1" />
+      <Item value="litBlank" priority="11" />
+      <Item value="dtCat" priority="17" />
+      <Item value="body" priority="6" />
+      <Item value="rptDetail" priority="14" />
+      <Item value="dtDetail" priority="31" />
+      <Item value="void" priority="2" />
+      <Item value="Lang" priority="2" />
+      <Item value="Width" priority="1" />
+      <Item value="Price" priority="3" />
+      <Item value="HyperLink`0" priority="2" />
+      <Item value="lnkTai" priority="8" />
+      <Item value="rptDetail_ItemDataBound`0" priority="0" />
+      <Item value="rptHinhNen" priority="0" />
+      <Item value="rptHinhNen_ItemDataBound`0" priority="1" />
+      <Item value="Count" priority="6" />
+      <Item value="thudoinfo" priority="2" />
+      <Item value="info" priority="11" />
+      <Item value="day" priority="4" />
+      <Item value="dgrDay" priority="1" />
+      <Item value="lnkDangKy" priority="0" />
+      <Item value="litwidth5" priority="0" />
+      <Item value="litwidth6" priority="0" />
+      <Item value="litTeaser" priority="0" />
+      <Item value="id" priority="19" />
+      <Item value="Request" priority="18" />
+      <Item value="display" priority="3" />
+      <Item value="pagesize" priority="10" />
+      <Item value="ltrGioiThieu" priority="3" />
+      <Item value="LinkButton`0" priority="0" />
+      <Item value="list" priority="2" />
+      <Item value="Length" priority="19" />
+      <Item value="Response" priority="19" />
+      <Item value="litGia" priority="5" />
+      <Item value="phones" priority="0" />
+      <Item value="arrPhones" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="i" priority="0" />
+      <Item value="foreach" priority="3" />
+      <Item value="var" priority="1" />
+      <Item value="in" priority="0" />
+      <Item value="item" priority="2" />
+      <Item value="msisdn" priority="19" />
+      <Item value="curData" priority="7" />
+      <Item value="pnlThongBao" priority="18" />
+      <Item value="true" priority="98" />
+      <Item value="telCo" priority="1" />
+      <Item value="Session" priority="52" />
+      <Item value="catID" priority="15" />
+      <Item value="price" priority="55" />
+      <Item value="global" priority="0" />
+      <Item value="out" priority="33" />
+      <Item value="String`0" priority="2" />
+      <Item value="is3g" priority="3" />
+      <Item value="trans" priority="0" />
+      <Item value="obj" priority="0" />
+      <Item value="ChargingService`0" priority="0" />
+      <Item value="productId" priority="9" />
+      <Item value="keyword" priority="1" />
+      <Item value="productKey" priority="8" />
+      <Item value="messageReturn" priority="18" />
+      <Item value="charging" priority="3" />
+      <Item value="private" priority="27" />
+      <Item value="ProductId" priority="7" />
+      <Item value="Keyword" priority="3" />
+      <Item value="strType" priority="4" />
+      <Item value="false" priority="33" />
+      <Item value="success" priority="13" />
+      <Item value="error" priority="0" />
+      <Item value="ProductKey" priority="3" />
+      <Item value="catInfo" priority="17" />
+      <Item value="strTrangchu" priority="1" />
+      <Item value="lnkWap3g" priority="1" />
+      <Item value="S2VNM" priority="2" />
+      <Item value="S2Vnm`0" priority="2" />
+      <Item value="s2Vnm" priority="3" />
+      <Item value="new" priority="23" />
+      <Item value="S2Vnm" priority="2" />
+      <Item value="reString" priority="6" />
+      <Item value="shortCode" priority="1" />
+      <Item value="requestId" priority="2" />
+      <Item value="commandcode" priority="0" />
+      <Item value="message" priority="9" />
+      <Item value="commandCode" priority="4" />
+      <Item value="reResult" priority="0" />
+      <Item value="arrResult" priority="6" />
+      <Item value="thuchien" priority="0" />
+      <Item value="HienThiNoiDung`0" priority="10" />
+      <Item value="pnlNoiDung" priority="5" />
+      <Item value="pnlSMS" priority="4" />
+      <Item value="ltrSMS" priority="1" />
+      <Item value="lnks2DangKy" priority="3" />
+      <Item value="Uri`0" priority="0" />
+      <Item value="ltrHuongdan" priority="2" />
+      <Item value="ltrTieuDe" priority="2" />
+      <Item value="array" priority="1" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="as" priority="1" />
+      <Item value="_arrService" priority="1" />
+      <Item value="dkXoSo" priority="1" />
+      <Item value="pnlXsThuDo" priority="0" />
+      <Item value="Panel`0" priority="3" />
+      <Item value="pnlXoSoList" priority="0" />
+      <Item value="soicau" priority="0" />
+      <Item value="pnlS2DkGame1" priority="0" />
+      <Item value="pnlS2DkGame2" priority="0" />
+      <Item value="pnlDkGame" priority="0" />
+      <Item value="DataTable" priority="15" />
+      <Item value="rptlstCategory" priority="0" />
+      <Item value="rptHottest" priority="0" />
+      <Item value="dtLastest" priority="3" />
+      <Item value="rptLastest" priority="0" />
+      <Item value="dtMoiCapNhat" priority="1" />
+      <Item value="try" priority="4" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ex1" priority="0" />
+      <Item value="override" priority="3" />
+      <Item value="returnValue" priority="9" />
+      <Item value="PaymentVNM2G`0" priority="0" />
+      <Item value="serviceId" priority="9" />
+      <Item value="serviceState" priority="1" />
+      <Item value="cnttype" priority="1" />
+      <Item value="path" priority="2" />
+      <Item value="PaymentVNM`0" priority="1" />
+      <Item value="content" priority="7" />
+      <Item value="log" priority="3" />
+      <Item value="CHARGING`0" priority="1" />
+      <Item value="servicename" priority="3" />
+      <Item value="WebServiceCharging3g`0" priority="0" />
+      <Item value="resp" priority="7" />
+      <Item value="sResult" priority="0" />
+      <Item value="Constant`0" priority="12" />
+      <Item value="TrimLength`0" priority="0" />
+      <Item value="userName" priority="2" />
+      <Item value="pass" priority="0" />
+      <Item value="cpId" priority="1" />
+      <Item value="userPass" priority="1" />
+      <Item value="IFormatProvider`0" priority="0" />
+      <Item value="rCP" priority="1" />
+      <Item value="lnksc" priority="2" />
+      <Item value="str" priority="17" />
+      <Item value="values" priority="4" />
+      <Item value="value" priority="18" />
+      <Item value="s2Dk" priority="0" />
+      <Item value="CLIP" priority="0" />
+      <Item value="S2.CLIP" priority="0" />
+      <Item value="S2" priority="1" />
+      <Item value="GAME" priority="1" />
+      <Item value="regionCode" priority="18" />
+      <Item value="regionName" priority="4" />
+      <Item value="t" priority="3" />
+      <Item value="litCityName" priority="1" />
+      <Item value="litCityCode" priority="0" />
+      <Item value="litLink" priority="0" />
+      <Item value="code" priority="16" />
+      <Item value="name" priority="18" />
+      <Item value="chitietGiaodich" priority="3" />
+      <Item value="lnkKetQua" priority="0" />
+      <Item value="url" priority="22" />
+      <Item value="ThethaoController`0" priority="0" />
+      <Item value="imgAvatar" priority="2" />
+      <Item value="pageindex" priority="1" />
+      <Item value="totalrecord" priority="1" />
+      <Item value="curpage" priority="5" />
+      <Item value="DataSet`0" priority="9" />
+      <Item value="ds" priority="15" />
+      <Item value="entity" priority="0" />
+      <Item value="link" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="SecurityMethod`0" priority="2" />
+      <Item value="en" priority="1" />
+      <Item value="pnlDangKy" priority="1" />
+      <Item value="litContent" priority="7" />
+      <Item value="subCode" priority="2" />
+      <Item value="lnkSoiCau" priority="0" />
+      <Item value="thudo" priority="0" />
+      <Item value="andy" priority="0" />
+      <Item value="key" priority="3" />
+      <Item value="k" priority="0" />
+      <Item value="HttpApplicationState`0" priority="0" />
+      <Item value="break" priority="2" />
+      <Item value="madichvu" priority="65" />
+      <Item value="GetName`0" priority="9" />
+      <Item value="txtMsisdn" priority="2" />
+      <Item value="rptGiftCode" priority="1" />
+      <Item value="rptTest" priority="1" />
+      <Item value="lblThongBao" priority="1" />
+      <Item value="rptTopRelax" priority="1" />
+      <Item value="res" priority="1" />
+      <Item value="rptTopAnChoi" priority="0" />
+      <Item value="rptDocTruyen" priority="0" />
+      <Item value="ExDebitNew`0" priority="0" />
+      <Item value="strReturn" priority="7" />
+      <Item value="msgReturn" priority="6" />
+      <Item value="ref" priority="0" />
+      <Item value="logPrice" priority="55" />
+      <Item value="returnUrl" priority="1" />
+      <Item value="redirectUrl" priority="1" />
+      <Item value="litAdvTop" priority="1" />
+      <Item value="dtAdv" priority="2" />
+      <Item value="litThongBao" priority="3" />
+      <Item value="litMsisdn" priority="1" />
+      <Item value="dtVoteInfo" priority="0" />
+      <Item value="reMadichvu" priority="1" />
+      <Item value="votePrice" priority="0" />
+      <Item value="personId" priority="0" />
+      <Item value="WapController`0" priority="5" />
+      <Item value="lblMtLike" priority="0" />
+      <Item value="dsMt" priority="0" />
+      <Item value="lblMtUnLike" priority="0" />
+      <Item value="lblLmLike" priority="0" />
+      <Item value="lblLmUnLike" priority="0" />
+      <Item value="arrUrl" priority="41" />
+      <Item value="result" priority="1" />
+      <Item value="codes" priority="0" />
+      <Item value="ltrNoiDung" priority="0" />
+      <Item value="partnerKey" priority="0" />
+      <Item value="partnerName" priority="1" />
+      <Item value="partnerSubs" priority="0" />
+      <Item value="sub" priority="0" />
+      <Item value="magoi" priority="0" />
+      <Item value="rptCategory" priority="4" />
+      <Item value="Repeater`0" priority="0" />
+      <Item value="currData" priority="0" />
+      <Item value="rptTop" priority="7" />
+      <Item value="contentTop" priority="8" />
+      <Item value="rptBottom" priority="5" />
+      <Item value="GetSetting`0" priority="1" />
+      <Item value="CatName" priority="11" />
+      <Item value="rptList" priority="14" />
+      <Item value="rptOlderNews" priority="0" />
+      <Item value="cateName" priority="7" />
+      <Item value="catId" priority="5" />
+      <Item value="page" priority="2" />
+      <Item value="newUrl" priority="9" />
+      <Item value="cpage" priority="0" />
+      <Item value="Constant" priority="0" />
+      <Item value="height" priority="0" />
+      <Item value="ZoneId" priority="0" />
+      <Item value="dtOlder" priority="2" />
+      <Item value="pnlContentError" priority="3" />
+      <Item value="litContentError" priority="1" />
+      <Item value="pnlContent" priority="2" />
+      <Item value="litName" priority="2" />
+      <Item value="catName" priority="12" />
+      <Item value="contentBottom" priority="1" />
+      <Item value="rptTruyenMoi" priority="3" />
+      <Item value="dtMoiNhat" priority="8" />
+      <Item value="rptTruyenHot" priority="3" />
+      <Item value="dtHot" priority="1" />
+      <Item value="rptCateOnline" priority="1" />
+      <Item value="TintucController`0" priority="2" />
+      <Item value="rptCateAudio" priority="1" />
+      <Item value="dtAudio" priority="0" />
+      <Item value="pageNumber" priority="1" />
+      <Item value="pageSize" priority="1" />
+      <Item value="Category`0" priority="0" />
+      <Item value="dtMoi" priority="0" />
+      <Item value="orig" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="lnkHotnews" priority="0" />
+      <Item value="DetailName" priority="1" />
+      <Item value="dtNewsCharging" priority="2" />
+      <Item value="rptNewsCharging" priority="1" />
+      <Item value="pnlNotContent" priority="2" />
+      <Item value="isComment" priority="2" />
+      <Item value="pnlHienThi" priority="0" />
+      <Item value="tenDichVu" priority="0" />
+      <Item value="dangkyThanhCong" priority="3" />
+      <Item value="doubleDangKy" priority="2" />
+      <Item value="regisChannel" priority="4" />
+      <Item value="dtSub" priority="2" />
+      <Item value="dtBackList" priority="0" />
+      <Item value="dtBackListGirl" priority="0" />
+      <Item value="pnlThanhCong" priority="0" />
+      <Item value="pnlSms" priority="0" />
+      <Item value="WsDvTet" priority="1" />
+      <Item value="S2Vnm1119Service`0" priority="1" />
+      <Item value="dvTet" priority="0" />
+      <Item value="arr" priority="2" />
+      <Item value="strResult" priority="1" />
+      <Item value="vmgame" priority="1" />
+      <Item value="VMgame" priority="0" />
+      <Item value="Service_RegisS2`0" priority="0" />
+      <Item value="VmGame" priority="0" />
+      <Item value="pnlThongBaoWeb" priority="2" />
+      <Item value="litThanhCong" priority="0" />
+      <Item value="dtSubAdcance" priority="2" />
+      <Item value="contentTopList" priority="0" />
+      <Item value="rptGioiTinh" priority="1" />
+      <Item value="rptTruyen" priority="0" />
+      <Item value="avtar" priority="0" />
+      <Item value="rptDichVu" priority="1" />
+      <Item value="headline" priority="0" />
+      <Item value="rptMenu" priority="1" />
+      <Item value="rptGameHay" priority="2" />
+      <Item value="lblCategoryName" priority="0" />
+      <Item value="lblCatetoryName" priority="0" />
+      <Item value="lblCategorryName" priority="0" />
+      <Item value="CatId" priority="1" />
+      <Item value="dtList" priority="3" />
+      <Item value="title" priority="0" />
+      <Item value="linkNgay" priority="1" />
+      <Item value="linkTuan" priority="1" />
+      <Item value="linkThang" priority="1" />
+      <Item value="type" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="isLog" priority="26" />
+      <Item value="dtHotNhat" priority="3" />
+      <Item value="rptHotNhat" priority="1" />
+      <Item value="rptMoiNhat" priority="2" />
+      <Item value="lblPrice" priority="0" />
+      <Item value="album" priority="0" />
+      <Item value="dtVideo" priority="2" />
+      <Item value="rptTopNews" priority="1" />
+      <Item value="contentList" priority="1" />
+      <Item value="rptListNews" priority="1" />
+      <Item value="Ngay" priority="0" />
+      <Item value="lnkxkq" priority="0" />
+      <Item value="lnkCity" priority="0" />
+      <Item value="Boolean`0" priority="7" />
+      <Item value="lnk20day" priority="0" />
+      <Item value="UrlProcess" priority="7" />
+      <Item value="TreeNode`0" priority="0" />
+      <Item value="rptDes" priority="1" />
+      <Item value="albumInfo" priority="0" />
+      <Item value="free" priority="0" />
+      <Item value="artistID" priority="0" />
+      <Item value="StyleID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Request" priority="2" />
+      <Item value="Session" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="QueryString" priority="16" />
+      <Item value="RawUrl" priority="4" />
+      <Item value="UrlReferrer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Utilities.ConvertUtility">
+      <Item value="ToInt32`0" priority="50" />
+      <Item value="CheckLang`0" priority="1" />
+      <Item value="ToString`0" priority="19" />
+      <Item value="ToDateTime`0" priority="3" />
+      <Item value="ToBoolean`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Utilities.UnicodeUtility">
+      <Item value="UnicodeToKoDau`0" priority="8" />
+      <Item value="RemoveSpecialCharacter`0" priority="1" />
+      <Item value="RemoveHtmlTags`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsPostBack" priority="45" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.AppEnv">
+      <Item value="GetSetting`0" priority="133" />
+      <Item value="GetAvatar`0" priority="15" />
+      <Item value="CheckLang`0" priority="116" />
+      <Item value="RegisterService`0" priority="5" />
+      <Item value="GetRegisterService`0" priority="1" />
+      <Item value="GetRegionName`0" priority="1" />
+      <Item value="GetAvatarTheThaoSo`0" priority="2" />
+      <Item value="Dk1RegisterService`0" priority="0" />
+      <Item value="GetExistUser`0" priority="0" />
+      <Item value="InsertVnmRegisterUser`0" priority="0" />
+      <Item value="isMobileBrowser`0" priority="4" />
+      <Item value="VnmCharging`0" priority="0" />
+      <Item value="VnmChargingOptimize`0" priority="1" />
+      <Item value="GetPartnerName`0" priority="1" />
+      <Item value="GetPartnerSub`0" priority="0" />
+      <Item value="GetAvatarByPath`0" priority="2" />
+      <Item value="NavigateGetAvatar`0" priority="0" />
+      <Item value="TrimLength`0" priority="4" />
+      <Item value="DangKyDinhVuTet`0" priority="0" />
+      <Item value="DangKyVmGame`0" priority="0" />
+      <Item value="GetTrueAvatarPath`0" priority="4" />
+      <Item value="CheckSessionTelco`0" priority="32" />
+      <Item value="NavigateUrlHigh`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="114" />
+      <Item value="Select`0" priority="0" />
+      <Item value="Tables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="51" />
+      <Item value="DataBind`0" priority="46" />
+      <Item value="ItemDataBound" priority="6" />
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="13" />
+      <Item value="Empty" priority="29" />
+      <Item value="Format`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="166" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToCharArray`0" priority="0" />
+      <Item value="ToString`0" priority="20" />
+      <Item value="Replace`0" priority="33" />
+      <Item value="Contains`0" priority="23" />
+      <Item value="Split`0" priority="12" />
+      <Item value="ToLower`0" priority="3" />
+      <Item value="ToUpper`0" priority="12" />
+      <Item value="Trim`0" priority="10" />
+      <Item value="PadLeft`0" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="62" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemEventArgs">
+      <Item value="Item" priority="41" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="FindControl`0" priority="21" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ItemIndex" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.UrlProcess.UrlProcess">
+      <Item value="GetGameHomeUrlNew`0" priority="1" />
+      <Item value="GetVideoHomeUrlNew`0" priority="1" />
+      <Item value="GetNewsDetailUrl`0" priority="0" />
+      <Item value="GetNewsHomeUrlNew`0" priority="1" />
+      <Item value="GetVideoDetailUrlNew`0" priority="1" />
+      <Item value="GetVideoDownloadUrlNew`0" priority="1" />
+      <Item value="GetVideoViewUrlNew`0" priority="0" />
+      <Item value="GetGameDetailUrlNew`0" priority="0" />
+      <Item value="GetGameDownloadUrlNew`0" priority="0" />
+      <Item value="GetGameCategoryUrlNew`0" priority="1" />
+      <Item value="GetWallpaperFreeDownloadUrlNew`0" priority="0" />
+      <Item value="GetXosoHomeUrlNew`0" priority="0" />
+      <Item value="GetDownloadItem`0" priority="0" />
+      <Item value="GetMusicHomeUrlNew`0" priority="0" />
+      <Item value="GetWapHomeUrlNew`0" priority="1" />
+      <Item value="GetGameS2RegisterUrl`0" priority="0" />
+      <Item value="GetS2RegisterXoSoUrl`0" priority="3" />
+      <Item value="GetS2RegisterResultXoSoUrl`0" priority="1" />
+      <Item value="GetS2RegisterResultSoiCauUrl`0" priority="0" />
+      <Item value="GetVideoHomeUrl`0" priority="1" />
+      <Item value="GetGameHomeUrl`0" priority="0" />
+      <Item value="GetWallpaperHomeUrl`0" priority="0" />
+      <Item value="GetMusicHomeUrl`0" priority="0" />
+      <Item value="GetXosoHomeUrl`0" priority="0" />
+      <Item value="GetTinTucNewHomeUrl`0" priority="0" />
+      <Item value="GetHotNewsDetailUrl`0" priority="1" />
+      <Item value="GetHotNewsCategoryUrl`0" priority="0" />
+      <Item value="TinTucChuyenMuc`0" priority="2" />
+      <Item value="TinTucChiTiet`0" priority="2" />
+      <Item value="TinTucHome`0" priority="4" />
+      <Item value="GioiTinhHome`0" priority="0" />
+      <Item value="GioiTinhChuyenMuc`0" priority="5" />
+      <Item value="GioiTinhChiTiet`0" priority="1" />
+      <Item value="TruyenOnlineChiTiet`0" priority="2" />
+      <Item value="TruyenAudioHome`0" priority="3" />
+      <Item value="TruyenOnlineChuyenMuc`0" priority="3" />
+      <Item value="TruyenOnlineHome`0" priority="0" />
+      <Item value="TruyenAudioChuyenMuc`0" priority="4" />
+      <Item value="TruyenAudioChiTiet`0" priority="1" />
+      <Item value="GameChuyenMuc`0" priority="2" />
+      <Item value="GameHome`0" priority="3" />
+      <Item value="ThuGianChuyenMuc`0" priority="2" />
+      <Item value="ThuGianChiTiet`0" priority="0" />
+      <Item value="ThuGianHome`0" priority="2" />
+      <Item value="VideoHome`0" priority="5" />
+      <Item value="VideoChuyenMuc`0" priority="5" />
+      <Item value="VideoChiTiet`0" priority="0" />
+      <Item value="HoangDaoHome`0" priority="3" />
+      <Item value="HoangDaoChuyenMuc`0" priority="0" />
+      <Item value="HoangDaoChiTiet`0" priority="0" />
+      <Item value="PhanMemChuyenMuc`0" priority="0" />
+      <Item value="HinhNenChiTiet`0" priority="0" />
+      <Item value="HinhNenChuyenMuc`0" priority="3" />
+      <Item value="XoSoHome`0" priority="4" />
+      <Item value="XoSoChiTiet`0" priority="8" />
+      <Item value="PhanMemHome`0" priority="0" />
+      <Item value="AmNhacHome`0" priority="1" />
+      <Item value="HinhNenHome`0" priority="0" />
+      <Item value="VideoDownload`0" priority="0" />
+      <Item value="VideoView`0" priority="1" />
+      <Item value="HinhNenDowload`0" priority="0" />
+      <Item value="HoangDaoDownload`0" priority="0" />
+      <Item value="GameChiTiet`0" priority="0" />
+      <Item value="GameDownload`0" priority="0" />
+      <Item value="TheThaoHome`0" priority="8" />
+      <Item value="TheThaoTranCauVang`0" priority="1" />
+      <Item value="TheThaoTuVanDacBiet`0" priority="0" />
+      <Item value="TheThaoThongKeDacBiet`0" priority="0" />
+      <Item value="TheThaoKetQuaHomNay`0" priority="0" />
+      <Item value="TheThaoBangXepHang`0" priority="0" />
+      <Item value="TheThaoBangXepHangChiTiet`0" priority="0" />
+      <Item value="TheThaoKetQuaThiDau`0" priority="0" />
+      <Item value="TheThaoKetQuaThiDauChiTiet`0" priority="0" />
+      <Item value="TheThaoLichThiDauHomNay`0" priority="0" />
+      <Item value="TheThaoThongKe`0" priority="0" />
+      <Item value="AmNhacAlbumChiTiet`0" priority="0" />
+      <Item value="AmNhacChiTiet`0" priority="1" />
+      <Item value="AmNhacDowload`0" priority="0" />
+      <Item value="ThuGianDowload`0" priority="0" />
+      <Item value="AmNhacChuyenMucAlbum`0" priority="2" />
+      <Item value="AmNhacChuyenMucCaSy`0" priority="4" />
+      <Item value="AmNhacChuyenMucTheLoai`0" priority="3" />
+      <Item value="AmNhacChuyenMucCaSyList`0" priority="0" />
+      <Item value="AmNhacChuyenMucTheLoaiList`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="CssClass" priority="1" />
+      <Item value="NavigateUrl" priority="14" />
+      <Item value="Text" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="53" />
+      <Item value="toar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="4" />
+      <Item value="Year" priority="0" />
+      <Item value="Month" priority="0" />
+      <Item value="Day" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="18" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.Library.Component.Transaction.TransactionInfo">
+      <Item value="Is3g" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.WS_VNMCGW.ChargingService">
+      <Item value="CallCharging`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.Library.VNMCharging.VNMChargingGW">
+      <Item value="PaymentVNM`0" priority="0" />
+      <Item value="NavigatePaymentVnm`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.S2VNM.S2Vnm">
+      <Item value="CheckRegistration`0" priority="1" />
+      <Item value="RegisterService`0" priority="0" />
+      <Item value="GetRegisteredServices`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="4" />
+      <Item value="StackTrace" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VNMChargingGW2G">
+      <Item value="PaymentVNM`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Info`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.WS_VNMCGW2G.WebServiceCharging3g">
+      <Item value="PaymentVnm`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Constant">
+      <Item value="E_OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@_3GChargingWebService.Library.VNMChargingGW2G">
+      <Item value="PaymentVnmWithAccount`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="AbsoluteUri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Component.Game.GameController">
+      <Item value="GetAllGameJavaHasCache`0" priority="0" />
+      <Item value="GetAllGameJavaVnmHasCache`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="8" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="19" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Component.Thethao.ThethaoController">
+      <Item value="GetHomeNewsHasCache`0" priority="0" />
+      <Item value="GetLastestNewsFromTheThaoSoHasCache`0" priority="0" />
+      <Item value="GetNewsDetailHasCache`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="ImageUrl" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Component.Tintuc.TintucController">
+      <Item value="GetRandomForSmile`0" priority="0" />
+      <Item value="GetRandomForHoangDao`0" priority="0" />
+      <Item value="GetTopRandomForSmile`0" priority="0" />
+      <Item value="GetTopRandomForDissipated`0" priority="0" />
+      <Item value="GetTopRandomForDtr`0" priority="0" />
+      <Item value="GetCategoryForHotNewsHomeCache`0" priority="0" />
+      <Item value="GetGioiTinhHomeCache`0" priority="0" />
+      <Item value="GetTruyenOnlineHomeCache`0" priority="0" />
+      <Item value="GetCategoryTruyenAudioCache`0" priority="2" />
+      <Item value="GetTruyenAudioHomeCache`0" priority="0" />
+      <Item value="GetAudioBookDetailCache`0" priority="0" />
+      <Item value="GetNewsChargingCache`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="MinValue" priority="0" />
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.SecurityMethod">
+      <Item value="MD5Decrypt`0" priority="1" />
+      <Item value="RandomString`0" priority="0" />
+      <Item value="RandomStringNumber`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Component.Wap.WapController">
+      <Item value="WapVnmGetGiftCodeByMsisdn`0" priority="0" />
+      <Item value="WapVnmGetAdvByPosId`0" priority="0" />
+      <Item value="GetTopUserVote`0" priority="0" />
+      <Item value="SecretRegisterInsert`0" priority="0" />
+      <Item value="SecretChargedUserLogInsert`0" priority="0" />
+      <Item value="SecretRegisterInsertForWapVnm`0" priority="0" />
+      <Item value="VnmS294XConfigGetByStatus`0" priority="1" />
+      <Item value="VnmS294XConfigGetInfo`0" priority="0" />
+      <Item value="VnmCheckBlackList`0" priority="0" />
+      <Item value="VnmAdvanceConfigGetByStatus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="CopyToDataTable`1" priority="11" />
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.Library.Constant.Constant">
+      <Item value="TinTuc" priority="0" />
+      <Item value="TinTucRewrite" priority="2" />
+      <Item value="GioiTinhRewrite" priority="2" />
+      <Item value="TruyenOnlineRewrite" priority="2" />
+      <Item value="TruyenAudioRewrite" priority="1" />
+      <Item value="T_Undefined" priority="0" />
+      <Item value="GameRewrite" priority="1" />
+      <Item value="ThuGianRewrite" priority="1" />
+      <Item value="VideoRewrite" priority="1" />
+      <Item value="HoangDaoRewrite" priority="1" />
+      <Item value="PhanMemRewrite" priority="1" />
+      <Item value="TheThaoRewrite" priority="1" />
+      <Item value="XoSoRewrite" priority="1" />
+      <Item value="XoSo_Kqxs_Rewrite" priority="2" />
+      <Item value="XoSo_KqbyDay_Rewrite" priority="1" />
+      <Item value="XoSo_KqCho_Rewrite" priority="3" />
+      <Item value="XoSo_ThongKe_Rewrite" priority="2" />
+      <Item value="XoSo_Kq20ngay_Rewrite" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WapXzone_VNM.WsDvTet.S2Vnm1119Service">
+      <Item value="GenerateXmlMappings`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.WsDvTet.S2Vnm1119Service">
+      <Item value="SubscribeFromWap`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WapXzone_VNM.VMgame.Service_RegisS2">
+      <Item value="RegisterS2`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Paging.ascx" caret="1135" fromTop="15" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Paging.ascx" caret="1133" fromTop="15" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Thethao/d:UserControlHigh/f:Paging.ascx.cs" caret="214" fromTop="3" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:Album.ascx" caret="1153" fromTop="20" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:Album.ascx.cs" caret="2020" fromTop="25" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Album.ascx" caret="1884" fromTop="25" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Album.ascx.cs" caret="1635" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Home.ascx" caret="4270" fromTop="14" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:Artist.ascx.cs" caret="2835" fromTop="20" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Paging.ascx.cs" caret="8834" fromTop="3" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:ArtistDetail.ascx" caret="350" fromTop="7" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:ArtistDetail.ascx.cs" caret="3154" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoCaSy.ascx" caret="530" fromTop="9" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:ArtistDetail.ascx.cs" caret="2497" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:MusicHome.ascx.cs" caret="8371" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/f:Default.aspx.cs" caret="3510" fromTop="8" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Library/d:UrlProcess/f:UrlProcess.cs" caret="59106" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/f:DefaultHigh.aspx.cs" caret="2677" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/f:Global.asax.cs" caret="21717" fromTop="26" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoTheLoai.ascx" caret="1457" fromTop="3" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Artist.ascx" caret="515" fromTop="9" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Artist.ascx.cs" caret="1474" fromTop="19" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:Style.ascx.cs" caret="2053" fromTop="29" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="1315" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx" caret="265" fromTop="3" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:ArtistDetail.ascx" caret="1549" fromTop="8" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:StyleDetail.ascx" caret="351" fromTop="7" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControl/f:StyleDetail.ascx.cs" caret="3098" fromTop="15" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx.cs" caret="744" fromTop="1" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx" caret="1428" fromTop="18" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:ArtistDetail.ascx.cs" caret="1500" fromTop="18" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:ArtistDetail.ascx.cs" caret="2719" fromTop="25" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:ArtistDetail.ascx.cs" caret="2108" fromTop="17" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:ArtistDetail.ascx.cs" caret="772" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoCaSy.ascx" caret="899" fromTop="15" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoCaSy.ascx" caret="1262" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoTheLoai.ascx" caret="812" fromTop="14" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoTheLoai.ascx" caret="1211" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:BaiHatTheoTheLoai.ascx" caret="392" fromTop="5" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/f:DefaultHigh.aspx.cs" caret="2646" fromTop="26" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/f:DefaultHigh.aspx.cs" caret="2756" fromTop="24" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/f:Global.asax.cs" caret="21742" fromTop="26" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx" caret="261" fromTop="4" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx" caret="1569" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="287" fromTop="12" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="975" fromTop="22" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="776" fromTop="15" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="1213" fromTop="27" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="1601" fromTop="23" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="33" fromTop="1" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx.cs" caret="490" fromTop="16" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:Style.ascx" caret="1284" fromTop="16" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx" caret="146" fromTop="2" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx" caret="1472" fromTop="10" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx" caret="623" fromTop="10" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx.cs" caret="1336" fromTop="13" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx.cs" caret="2222" fromTop="30" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx.cs" caret="1769" fromTop="12" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx.cs" caret="2659" fromTop="28" />
+      <File id="145DC7B4-2867-4F9E-98ED-EDC4348B1FEF/d:Music/d:UserControlHigh/f:StyleDetail.ascx.cs" caret="33" fromTop="1" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

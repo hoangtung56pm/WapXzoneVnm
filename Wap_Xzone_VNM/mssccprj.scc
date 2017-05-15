@@ -1,0 +1,25 @@
+SCC = This is a Source Code Control file
+
+[MobiFoneWap.sln]
+SCC_Aux_Path = "\\192.168.33.74\vss"
+SCC_Project_Name = "$/MobiFone", TPLJAAAA
+
+[MobiFoneWap.csproj]
+SCC_Aux_Path = "\\192.168.33.74\vss"
+SCC_Project_Name = "$/MobiFone", TPLJAAAA
+
+[VMG_Wap.sln]
+SCC_Aux_Path = "\\192.168.36.196\Works\VSS"
+SCC_Project_Name = "$/WapXzone", SUTPAAAA
+
+[WapXzone.csproj]
+SCC_Aux_Path = "\\192.168.36.196\Works\VSS"
+SCC_Project_Name = "$/WapXzone", SUTPAAAA
+
+[VNM_Wap.sln]
+SCC_Aux_Path = "\\192.168.36.196\Works\VSS"
+SCC_Project_Name = "$/Wap_Xzone_VNM", AFZQAAAA
+
+[WapXzone_VNM.csproj]
+SCC_Aux_Path = "\\192.168.36.196\Works\VSS"
+SCC_Project_Name = "$/Wap_Xzone_VNM", AFZQAAAA

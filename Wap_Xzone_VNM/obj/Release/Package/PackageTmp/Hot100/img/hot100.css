@@ -1,0 +1,92 @@
+﻿body
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align:justify;
+    margin: 0px;
+}
+.khung
+{
+	width:98%;
+	padding:1px 1% 0px 1%;
+}
+p 
+{
+    margin: 0px;
+}
+.item0 
+{    
+	padding:3px 3px 3px 3px;
+}
+.item1 
+{    
+	padding:3px 3px 3px 3px;
+	background: url(../Hot100/img/itembg.jpg) repeat-x;
+}
+.bold {
+    font-weight: bold;
+}
+.clearfix {
+	clear:both;
+	height:0px;
+	overflow:hidden;
+}
+.dl 
+{
+    float:right;
+    margin:8px 5px ;
+}
+.casy
+{
+    margin-left: 20px;
+}
+.footer 
+{
+    padding: 5px 10px 2px 5px; 	
+	height:18px;
+	background-color:#d4001f;
+	color:#ffffff;
+}
+
+.footer a:link
+{
+    text-decoration:none;
+	color:#ffffff;
+}
+.footer a:visited
+{
+    text-decoration:none;
+	color:#ffffff;
+}
+.footer a:hover
+{
+    text-decoration:none;
+	color:#ffffff;
+}
+
+.content-page
+{
+	clear: both;
+	overflow: hidden;
+	text-align:center;
+	color:#000;
+	font-size:11px;
+}
+.content-page a:link
+{
+	color:#da251d;
+	font-size:11px;
+	text-decoration:none;
+}
+.content-page a:visited
+{
+	color:#da251d;
+	font-size:11px;
+	text-decoration:none;
+}
+.content-page a:hover
+{
+	color:#000;
+	font-size:11px;
+	text-decoration:none;
+}

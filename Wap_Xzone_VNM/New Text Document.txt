@@ -1,0 +1,5 @@
+http://123.29.67.200:8001/PortalCharging/services/Charging?wsdl
+http://123.29.67.200:8401/MsisdnService.asmx
+
+Transaction.Success(Session["telco"].ToString(), Session["msisdn"].ToString(), price, lnkDownload.NavigateUrl, id.ToString(), chitietGiaodich, 5);
+Transaction.Failure(Session["telco"].ToString(), Session["msisdn"].ToString(), price, Request.Url.ToString(), id.ToString(), chitietGiaodich, 5, messageReturn);

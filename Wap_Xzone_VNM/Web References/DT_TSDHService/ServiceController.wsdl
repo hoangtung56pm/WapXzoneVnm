@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="ServiceController" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://123.30.181.21:8081/TSDHService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://123.30.181.21:8081/TSDHService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://123.30.181.21:8081/TSDHService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DataEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceController_QueryData_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryData" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryOrder" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryUniversityPoint_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryUniversityPoint" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryUniversityPoint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryUniversityPointResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDepartmentPoint_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDepartmentPoint" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDepartmentPoint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDepartmentPointResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryUniversityRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryUniversityRate" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryUniversityRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryUniversityRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDepartmentRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDepartmentRate" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryDepartmentRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryDepartmentRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryAll" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryAdviseUniversity_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryAdviseUniversity" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryAdviseUniversity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryAdviseUniversityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryAdviseDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:QueryAdviseDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IServiceController_QueryAdviseDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QueryAdviseDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceController">
+    <wsdl:operation name="QueryData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryData" message="tns:IServiceController_QueryData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryDataResponse" message="tns:IServiceController_QueryData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryOrder" message="tns:IServiceController_QueryOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryOrderResponse" message="tns:IServiceController_QueryOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryUniversityPoint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryUniversityPoint" message="tns:IServiceController_QueryUniversityPoint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryUniversityPointResponse" message="tns:IServiceController_QueryUniversityPoint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryDepartmentPoint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryDepartmentPoint" message="tns:IServiceController_QueryDepartmentPoint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryDepartmentPointResponse" message="tns:IServiceController_QueryDepartmentPoint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryUniversityRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryUniversityRate" message="tns:IServiceController_QueryUniversityRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryUniversityRateResponse" message="tns:IServiceController_QueryUniversityRate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryDepartmentRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryDepartmentRate" message="tns:IServiceController_QueryDepartmentRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryDepartmentRateResponse" message="tns:IServiceController_QueryDepartmentRate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryAll" message="tns:IServiceController_QueryAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryAllResponse" message="tns:IServiceController_QueryAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAdviseUniversity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryAdviseUniversity" message="tns:IServiceController_QueryAdviseUniversity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryAdviseUniversityResponse" message="tns:IServiceController_QueryAdviseUniversity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAdviseDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceController/QueryAdviseDepartment" message="tns:IServiceController_QueryAdviseDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceController/QueryAdviseDepartmentResponse" message="tns:IServiceController_QueryAdviseDepartment_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceController" type="tns:IServiceController">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryData">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrder">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryUniversityPoint">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryUniversityPoint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryDepartmentPoint">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryDepartmentPoint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryUniversityRate">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryUniversityRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryDepartmentRate">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryDepartmentRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAll">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAdviseUniversity">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryAdviseUniversity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAdviseDepartment">
+      <soap:operation soapAction="http://tempuri.org/IServiceController/QueryAdviseDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceController">
+    <wsdl:port name="BasicHttpBinding_IServiceController" binding="tns:BasicHttpBinding_IServiceController">
+      <soap:address location="http://123.30.181.21:8081/TSDHService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

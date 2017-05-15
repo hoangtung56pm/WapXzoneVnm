@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetVietnamobileMsisdn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ipAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVietnamobileMsisdnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVietnamobileMsisdnResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetVietnamobileMsisdnSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVietnamobileMsisdn" />
+  </wsdl:message>
+  <wsdl:message name="GetVietnamobileMsisdnSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVietnamobileMsisdnResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MsisdnServiceSoap">
+    <wsdl:operation name="GetVietnamobileMsisdn">
+      <wsdl:input message="tns:GetVietnamobileMsisdnSoapIn" />
+      <wsdl:output message="tns:GetVietnamobileMsisdnSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MsisdnServiceSoap" type="tns:MsisdnServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetVietnamobileMsisdn">
+      <soap:operation soapAction="http://tempuri.org/GetVietnamobileMsisdn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MsisdnServiceSoap12" type="tns:MsisdnServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetVietnamobileMsisdn">
+      <soap12:operation soapAction="http://tempuri.org/GetVietnamobileMsisdn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MsisdnService">
+    <wsdl:port name="MsisdnServiceSoap" binding="tns:MsisdnServiceSoap">
+      <soap:address location="http://123.29.67.200:8401/MsisdnService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MsisdnServiceSoap12" binding="tns:MsisdnServiceSoap12">
+      <soap12:address location="http://123.29.67.200:8401/MsisdnService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

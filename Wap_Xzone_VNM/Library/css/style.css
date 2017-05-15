@@ -1,0 +1,85 @@
+﻿body {
+    width: 100%;
+    margin: 0 auto;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#form1 {
+    width: 100%;
+}
+#header {
+    float: right;
+    padding-top: 15px;
+}
+#menu {
+    margin: 0 0 1em 0;
+	padding: 0;
+    border-bottom: 1px solid #ccc;  
+}
+nav {
+    width: 100%;
+
+}
+#menu ul{
+      background-image: url('/Library/Img/menu.png') ;
+  background-repeat: repeat-x;
+     float: left;
+    margin-left: -40px;
+    display: table;
+    width: 100%;
+}
+#menu a {
+        text-decoration: none;
+    color: white;
+    width: 22%;
+    font-size: 16px;
+}
+#menu ul li:hover {
+    background-image: url('/Library/Img/bg-hover.png');
+}
+#menu ul li
+{
+
+    list-style: none;
+    width: 24%;
+    float: left;
+                    border-right: 1px solid #ccc;
+    height: 51px;
+}
+#menu ul li a {
+    cursor: pointer;
+        padding: 11px 0px;
+            display: table-cell; 
+                text-align: center;
+  
+}
+.head_thele {
+    text-align: center;
+    font-weight: bold;
+}
+#tab2 ul li{
+    list-style: none;
+     font-weight: bold
+}
+#body_thele ul li p{
+    font-weight: normal
+}
+#nhantin ul li{
+        list-style:  square url("/Library/Img/images.png");
+}
+#tab5 p,#tab6 p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
+    padding-top: 20px;
+}
+#footer {
+    height: 40px;
+       background-image: url('/Library/Img/menu.png') ;
+  background-repeat: repeat-x;
+    width: 100%;
+}

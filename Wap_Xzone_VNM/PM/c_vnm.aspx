@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="c_vnm.aspx.cs" Inherits="WapXzone_VNM.PM.c_vnm" %>

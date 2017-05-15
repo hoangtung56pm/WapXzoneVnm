@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAvatar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarByColor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="color" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarByColorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarByColorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateAvatarThumnailByColor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="color" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateAvatarThumnailByColorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateAvatarThumnailByColorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateAvatarThumnail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateAvatarThumnailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateAvatarThumnailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarGif">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarGifResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarGifResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarGifWithTextWaterMark">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="font" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontBold" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="floatx" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="floaty" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarGifWithTextWaterMarkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarGifWithTextWaterMarkResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarGifWithTextWaterMarkAndDell">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="font" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontBold" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="floatx" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="floaty" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="isDell" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarGifWithTextWaterMarkAndDellResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarGifWithTextWaterMarkAndDellResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarWithTextWaterMark">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="font" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontBold" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="floatx" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="floaty" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarWithTextWaterMarkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarWithTextWaterMarkResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarWithTextWaterMarkAndDell">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="avatarPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="font" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="fontBold" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="floatx" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="floaty" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="isDell" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAvatarWithTextWaterMarkAndDellResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAvatarWithTextWaterMarkAndDellResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAvatarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatar" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarByColorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatarByColor" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarByColorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarByColorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateAvatarThumnailByColorSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateAvatarThumnailByColor" />
+  </wsdl:message>
+  <wsdl:message name="GenerateAvatarThumnailByColorSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateAvatarThumnailByColorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateAvatarThumnailSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateAvatarThumnail" />
+  </wsdl:message>
+  <wsdl:message name="GenerateAvatarThumnailSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateAvatarThumnailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarGifSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatarGif" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarGifSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarGifResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarGifWithTextWaterMarkSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatarGifWithTextWaterMark" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarGifWithTextWaterMarkSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarGifWithTextWaterMarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarGifWithTextWaterMarkAndDellSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatarGifWithTextWaterMarkAndDell" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarGifWithTextWaterMarkAndDellSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarGifWithTextWaterMarkAndDellResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarWithTextWaterMarkSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatarWithTextWaterMark" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarWithTextWaterMarkSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarWithTextWaterMarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarWithTextWaterMarkAndDellSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAvatarWithTextWaterMarkAndDell" />
+  </wsdl:message>
+  <wsdl:message name="GetAvatarWithTextWaterMarkAndDellSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAvatarWithTextWaterMarkAndDellResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Ws_ProcessSoap">
+    <wsdl:operation name="GetAvatar">
+      <wsdl:input message="tns:GetAvatarSoapIn" />
+      <wsdl:output message="tns:GetAvatarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarByColor">
+      <wsdl:input message="tns:GetAvatarByColorSoapIn" />
+      <wsdl:output message="tns:GetAvatarByColorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateAvatarThumnailByColor">
+      <wsdl:input message="tns:GenerateAvatarThumnailByColorSoapIn" />
+      <wsdl:output message="tns:GenerateAvatarThumnailByColorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateAvatarThumnail">
+      <wsdl:input message="tns:GenerateAvatarThumnailSoapIn" />
+      <wsdl:output message="tns:GenerateAvatarThumnailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGif">
+      <wsdl:input message="tns:GetAvatarGifSoapIn" />
+      <wsdl:output message="tns:GetAvatarGifSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGifWithTextWaterMark">
+      <wsdl:input message="tns:GetAvatarGifWithTextWaterMarkSoapIn" />
+      <wsdl:output message="tns:GetAvatarGifWithTextWaterMarkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGifWithTextWaterMarkAndDell">
+      <wsdl:input message="tns:GetAvatarGifWithTextWaterMarkAndDellSoapIn" />
+      <wsdl:output message="tns:GetAvatarGifWithTextWaterMarkAndDellSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarWithTextWaterMark">
+      <wsdl:input message="tns:GetAvatarWithTextWaterMarkSoapIn" />
+      <wsdl:output message="tns:GetAvatarWithTextWaterMarkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarWithTextWaterMarkAndDell">
+      <wsdl:input message="tns:GetAvatarWithTextWaterMarkAndDellSoapIn" />
+      <wsdl:output message="tns:GetAvatarWithTextWaterMarkAndDellSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Ws_ProcessSoap" type="tns:Ws_ProcessSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAvatar">
+      <soap:operation soapAction="http://tempuri.org/GetAvatar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarByColor">
+      <soap:operation soapAction="http://tempuri.org/GetAvatarByColor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateAvatarThumnailByColor">
+      <soap:operation soapAction="http://tempuri.org/GenerateAvatarThumnailByColor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateAvatarThumnail">
+      <soap:operation soapAction="http://tempuri.org/GenerateAvatarThumnail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGif">
+      <soap:operation soapAction="http://tempuri.org/GetAvatarGif" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGifWithTextWaterMark">
+      <soap:operation soapAction="http://tempuri.org/GetAvatarGifWithTextWaterMark" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGifWithTextWaterMarkAndDell">
+      <soap:operation soapAction="http://tempuri.org/GetAvatarGifWithTextWaterMarkAndDell" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarWithTextWaterMark">
+      <soap:operation soapAction="http://tempuri.org/GetAvatarWithTextWaterMark" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarWithTextWaterMarkAndDell">
+      <soap:operation soapAction="http://tempuri.org/GetAvatarWithTextWaterMarkAndDell" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Ws_ProcessSoap12" type="tns:Ws_ProcessSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAvatar">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarByColor">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatarByColor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateAvatarThumnailByColor">
+      <soap12:operation soapAction="http://tempuri.org/GenerateAvatarThumnailByColor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateAvatarThumnail">
+      <soap12:operation soapAction="http://tempuri.org/GenerateAvatarThumnail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGif">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatarGif" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGifWithTextWaterMark">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatarGifWithTextWaterMark" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarGifWithTextWaterMarkAndDell">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatarGifWithTextWaterMarkAndDell" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarWithTextWaterMark">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatarWithTextWaterMark" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatarWithTextWaterMarkAndDell">
+      <soap12:operation soapAction="http://tempuri.org/GetAvatarWithTextWaterMarkAndDell" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Ws_Process">
+    <wsdl:port name="Ws_ProcessSoap" binding="tns:Ws_ProcessSoap">
+      <soap:address location="http://media.xzone.vn:8193/Ws_Process.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Ws_ProcessSoap12" binding="tns:Ws_ProcessSoap12">
+      <soap12:address location="http://media.xzone.vn:8193/Ws_Process.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

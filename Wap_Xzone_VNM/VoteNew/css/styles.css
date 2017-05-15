@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 12px/20px arial;
+    color: #434242;
+    background: #f0508c url("../images/bg-pink.png") repeat center top;
+}
+
+a {
+    color: #ee3e81;
+    text-decoration: none;
+    outline: none;
+}
+a:hover,
+a:focus,
+a:active {outline: none}
+
+.head-banner {
+    text-align: center;
+    display: block;
+}
+
+.head-banner img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* status */
+.action-status {
+    position: relative;
+    background: #8a37a2;
+    color: #fff;
+
+}
+
+.action-status .vs {
+    float: left;
+    width:55px;
+    height: 57px;
+    text-indent: -9999px;
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    margin: 0 0 0 -27px;
+    background: url("../images/vs-icon.png") no-repeat;
+}
+
+.action-status ul {
+    float: left;
+    width: 45%;
+    list-style: none;
+    line-height: 17px;
+}
+
+.action-status ul:last-child {
+    float: right;
+}
+
+.action-status ul:first-child .split {
+    float: left;
+    width: 26px;
+    height: 42px;
+    background: url("../images/bg-left-color-split.png") no-repeat;
+    position: absolute;
+    right: -13px;
+    top: 0;
+    text-indent: -9999px;
+}
+
+.action-status ul:last-child .split {
+    float: left;
+    width: 26px;
+    height: 42px;
+    background: url("../images/bg-right-color-split.png") no-repeat;
+    position: absolute;
+    left: -13px;
+    top: 0;
+    text-indent: -9999px;
+}
+
+.action-status ul li {
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    padding: 6px 0 2px 0;
+}
+
+.action-status ul li a {
+    display: block;
+    color: #fff;
+}
+
+.action-status ul li strong {
+    display: block;
+    font-size: 18px;
+}
+
+.action-status ul.big li strong {
+    font-size: 20px;
+}
+
+.action-status ul li.bg-yellow  {
+    color: #ee3e81;
+    background: #ffe400;
+}
+
+.action-status ul li.bg-yellow a {
+    color: #ee3e81;
+}
+
+/* main */
+.main-container {
+    padding: 12px 10px 15px 10px;
+}
+
+.vote-list {
+    padding-bottom: 5px;
+}
+.vote-list dl {
+    float: left;
+    width: 49%;
+    background: #fff;
+    -moz-box-shadow: 0px 1px 2px #444;
+    -webkit-box-shadow: 0px 1px 2px #444;
+    box-shadow: 0px 1px 2px #444;
+}
+
+.vote-list dl:last-child {
+    float: right;
+}
+
+.vote-list dl dt {
+    color: #ee3e81;
+    text-transform: uppercase;
+    display: block;
+    padding: 7px 10px 5px 10px;
+    line-height: 16px;
+    border-bottom: 1px solid #c2c2c2;
+    font-weight: bold;
+}
+
+.vote-list dl dd {
+    display: block;
+    border-top: 1px solid #ececec;
+}
+
+.vote-list dl ul {
+    list-style: none;
+}
+
+.vote-list dl ul li {
+    display: block;
+    border-bottom: 1px dotted #bebebe;
+    padding: 10px 20px 9px 18px;
+}
+
+.vote-list dl ul li:last-child {
+    border-bottom: 1px solid #a38691;
+}
+
+.vote-list dl ul li label {
+    float: right;
+}
+
+/* accordion content */
+.accordion-block .accordion-title {
+    display: block;
+    background: #fff;
+    padding: 0 8px 0 14px;
+    line-height: 18px;
+    color: #ee3e81;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid #ae3a66;
+    border-top: 1px solid #ef508c;
+}
+
+.accordion-block .accordion-title a {
+    display: block;
+    color: #ee3e81;
+    padding: 11px 35px 11px 0;
+    background: url("../images/accordion-default.png") no-repeat right center;
+}
+
+.accordion-block .accordion-title.accordion-open {
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.accordion-block .accordion-title.accordion-open a {
+    background: url("../images/accordion-open.png") no-repeat right center;
+}
+
+.accordion-block .accordion-content {
+    border-top: 1px solid #e7e7e7;
+    background: #fff;
+    border-bottom: 2px solid #ef508c;
+    padding: 10px 14px 20px 14px;
+}
+
+/* footer */
+.footer {
+    display: block;
+    text-align: center;
+    padding: 3px 10px 12px 10px;
+    color: #fff;
+    line-height: 18px;
+}
+.footer a {
+    color: #fff;
+}
+
+
+
+
+.clearfix:after,
+.vote-list dl ul li:after,
+.accordion-block .accordion-content:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* screen 320 */
+@media screen and (max-width : 445px) {
+
+    .action-status ul {
+        width: 43%;
+    }
+
+    .action-status ul li {
+        font-size: 10px;
+        padding-bottom: 3px;
+        padding-top: 7px;
+    }
+
+    .action-status ul li strong {
+        font-size: 14px; line-height: 15px;
+    }
+
+    .action-status ul.big li strong {
+        font-size: 16px;
+    }
+
+    .action-status ul:first-child .split {
+        width: 12px;
+        right: -6px;
+        -webkit-background-size: 12px 42px;
+        -moz-background-size: 12px 42px;
+        -o-background-size: 12px 42px;
+        background-size: 12px 42px;
+    }
+
+    .action-status ul:last-child .split {
+        width: 12px;
+        left: -6px;
+        -webkit-background-size: 12px 42px;
+        -moz-background-size: 12px 42px;
+        -o-background-size: 12px 42px;
+        background-size: 12px 42px;
+    }
+
+    .vote-list dl ul li {
+        padding: 10px 14px 9px 14px;
+    }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+    .action-status .vs {
+        background: url("../images/vs-icon@2x.png") no-repeat;
+        -moz-background-size: 55px 57px;
+        -webkit-background-size: 55px 57px;
+        -o-background-size: 55px 57px;
+        background-size: 55px 57px;
+    }
+
+    .accordion-block .accordion-title a {
+        background: url("../images/accordion-default@2x.png") no-repeat right center;
+        -moz-background-size: 28px 28px;
+        -webkit-background-size: 28px 28px;
+        -o-background-size: 28px 28px;
+        background-size: 28px 28px;
+    }
+
+    .accordion-block .accordion-title.accordion-open a {
+        background: url("../images/accordion-open@2x.png") no-repeat right center;
+        -moz-background-size: 28px 28px;
+        -webkit-background-size: 28px 28px;
+        -o-background-size: 28px 28px;
+        background-size: 28px 28px;
+    }
+
+}
+
+/*26/02/2014*/
+.table-vote{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    background: #ffffff;
+}
+.table-vote thead tr{
+    color: #ee3e81;
+    border-bottom: 1px solid #c2c2c2;
+}
+.table-vote thead tr th{
+    padding: 5px;
+}
+.table-vote tbody tr{
+    border-bottom: 1px dotted #c2c2c2;
+}
+.table-vote tbody tr:last-child{
+    border-bottom: none;
+}
+.table-vote tbody tr td{
+    padding: 5px;
+}
+.accordion-content .item{
+    border-bottom: 1px solid #c2c2c2;
+    padding: 5px 10px;
+}
+.accordion-content .item:last-child{
+    border-bottom: none;
+}
+.accordion-content .item .name{
+    font-weight: 600;
+}
+.accordion-content .item .name span{
+    color: #a6a6a6;
+    font-weight: normal;
+}
+.accordion-content .item .comment-text{
+    color: #434242;
+}
+.box-input{
+    padding: 10px 0;
+}
+.box-input textarea{
+    border: 1px solid #c2c2c2;
+    background: #f6f0f0;
+    width: 100%;
+    text-indent: 10px;
+    padding: 10px 0;
+    resize: none;
+}
+.box-button{
+    text-align: right;
+}
+.box-button .btn-send{
+    color: #ffffff;
+    border: none;
+    background: #c10d0c ;
+    padding: 3px;
+    text-align: center;
+    width: 100px;
+    border-radius: 3px;
+}
+.action-status{
+    background: url("../images/bg-vote-nav.png") repeat-x;
+    text-align: center;
+}
+.action-status .btn-vote{
+    position: relative;
+}
+.action-status .btn-vote .count-vote{
+    position: absolute;
+    bottom: 40px;
+    left: 53px;
+    width: 50px;
+    height: 58px;
+    -moz-box-sizing:border-box;
+    padding: 15px 7px;
+    display: block;
+    background: url("../images/bg-vote.png") no-repeat center;
+    color: #ffffff;
+}
+.accordion-block .accordion-content{
+    padding: 10px 0px 20px;
+}
+
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 98% !important;
+}

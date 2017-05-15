@@ -1,0 +1,1285 @@
+﻿
+
+
+img{
+    width: 100%;
+}
+.border-bottom{
+    height: 1px;
+    width: 100%;
+    background: #efefef;
+    margin-bottom: 5px;
+}
+.wrapper{
+    font-family: "Arial";
+    font-size: 12px;
+}
+.body{
+    padding-top: 42px;
+}
+.header{
+    position: relative;
+    background: #ff7e00;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.header a:hover{
+    text-decoration: none;
+}
+.header .btn-menu{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    width: 36px;
+    height: 24px;
+}
+.header .option{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 36px;
+    height: 24px;
+}
+.header .logo{
+    width: 43px;
+}
+.filter{
+    padding: 7px 10px;
+}
+.filter .nav-top{
+    list-style: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid #ff7e00;
+    border-radius: 5px;
+}
+.filter .nav-top li{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.filter .nav-top li a{
+    color: #ff7e00;
+    padding: 8px 10px;
+    display: block;
+}
+.filter .nav-top li a:hover{
+    background: #ff7e00;
+    text-decoration: none;
+    color: #fff;
+}
+.filter .nav-top li a.active{
+    background: #ff7e00;
+    color: #fff;
+}
+.tin-hot{
+    padding: 0 10px;
+}
+.box-title{
+    overflow: hidden;
+}
+.box-title .title{
+    float: left;
+    width: 50%;
+}
+.box-title .xem-them{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.box-title .xem-them a{
+    color: #404040;
+    margin: 10px 0;
+    display: block;
+}
+.list-news{
+    margin-left: -3px;
+    margin-right: -3px;
+    overflow: hidden;
+}
+.list-news .item{
+    width: 50%;
+    padding-right: 3px;
+    padding-left: 3px;
+    float: left;
+}
+.list-news .item p.description{
+    margin-top: 3px;
+    /*height:60px;*/
+    height: 45px;
+}
+.list-news .item a{
+    color: #333333;
+    font-size: 12px;
+    /*font-weight: 600;*/
+    font-weight: bold;
+}
+.list-news .item a:hover{
+    text-decoration: none;
+}
+.video{
+    padding: 0 10px;
+
+}
+.video .video-large{
+    margin-bottom: 10px;
+}
+.video .video-large p.description{
+     margin: 0;
+    padding: 10px 10px;
+    background: #ff7e00;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+}
+.list-video .item p.description{
+	margin-top:0px;	
+}
+.list-video .item p.description a{
+    margin: 0;
+    padding: 5px 10px;
+    background: #ff7e00;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+    color: #ffffff;
+    font-weight: inherit;
+}
+.truyen{
+    padding: 0 10px;
+}
+.list-truyen{
+
+}
+.list-truyen .item{
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px dotted #cdcdcd;
+}
+.list-truyen .item .thumbnail-img{
+    display: table;
+    float: left;
+    margin-right: 5px;
+}
+.list-truyen .item .info{
+
+}
+.list-truyen .item .info h4{
+    margin: 0 0 5px 0;
+}
+.list-truyen .item .info h4 a{
+    color: #404040;
+    font-size: 14px;
+    font-style: normal;
+
+}
+.list-truyen .item .info span{
+    color: #797979;
+    display: block;
+    line-height: 14px;
+}
+/*Game*/
+.game{
+    padding: 0 10px;
+}
+.list-game{
+    overflow: hidden;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.list-game .item{
+    float: left;
+    width: 33.33%;
+    padding-left:4px;
+    padding-right: 4px;
+    margin-bottom: 8px;
+}
+.list-game .item .border{
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+.list-game .item .border p.name{
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    height:30px;
+    padding-top: 5px;
+}
+.list-game .item .border p.price{
+    color: #9d9d9d;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.dich-vu{
+    padding: 0 10px;
+}
+.list-dichvu{
+    margin-right: -8px;
+    margin-left: -8px;
+    overflow: hidden;
+}
+.list-dichvu .item{
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+    width: 25%;
+}
+.list-dichvu .item a{
+
+}
+.list-dichvu .item p.name{
+    font-size: 12px;
+    margin-top: 5px;
+    height:34px;
+    text-align:center;
+}
+.footer{
+    padding: 5px 10px;
+    background: #ff7e00;
+    text-align: center;
+}
+.footer span{
+    color: #ffffff;
+    font-size: 12px;
+}
+/*news*/
+.tin-tuc{
+    padding: 10px 10px;
+}
+.news-large a h4{
+    color: #333333;
+}
+.news-large p.description{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.tab-news{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    border-top: 1px solid #ff6600;
+}
+.tab-news li{
+    float: left;
+}
+.tab-news li a{
+    color: #7e747e;
+    display: block;
+    padding: 5px 5px;
+}
+.tab-news li a.active{
+    font-size: 16px;
+    color: #ff6600;
+    text-transform: uppercase;
+}
+.news-referent{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.news-referent li{
+    background: #f7f7f7;
+    border-bottom: 1px solid #eeeeee;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.news-referent li a{
+    color: #333333;
+    font-weight: 600;
+    font-size: 12px;
+}
+.news-referent li a.is-img{
+    background: url("../Images/icon-is-img.png") no-repeat left center;
+    padding-left: 20px;
+}
+.news-referent li span{
+    color: #a7a7a7;
+    font-size: 10px;
+}
+/*video*/
+.category-video{
+    padding: 0 5px;
+}
+.category-video .title-video{
+    padding: 5px 0;
+}
+.category-video .title-video span{
+    color: #ff7e00;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.border-color{
+    width: 100%;
+    background: #dbdbdb;
+}
+.border-color div{
+    width: 20%;
+    height: 4px;
+    background: #ff7e00;
+}
+.video-download{}
+.video-download .item{
+    overflow: hidden;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+}
+.video-download .item .thumbnail-video{
+    width: 140px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.video-download .item .description a{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 600;
+}
+.view-all{
+    padding: 5px 0;
+}
+.view-all a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+}
+.box-tag{
+    background: #ffd8b2;
+    padding: 15px 15px 15px 15px;
+}
+.box-tag .list-tag{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box-tag .list-tag li{
+    margin-bottom: 10px;
+    display: table;
+}
+.box-tag .list-tag li a{
+    display: block;
+    padding: 5px 15px 5px 40px;
+    background: url("../Images/icon-video.png") no-repeat left center #ff7e00;
+    box-shadow:0px 3px #675848;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.box-tag .list-tag li a.active{
+    background:url("../Images/icon-video.png") no-repeat left center #8d8d8d;
+}
+/*video play*/
+.video-play{
+    padding: 0 5px;
+}
+/*anh nen 2*/
+.anh-nen-2{
+    margin-top: 3px;
+}
+.box-indicators{
+    background: url("../Images/opacity.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 16;
+}
+.slider-img .carousel-indicators{
+    bottom: 5px;
+}
+.slider-img .carousel-indicators li{
+    border: none;
+    background: #fff;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+}
+.slider-img .carousel-indicators .active{
+    background: #4fc1e9;
+}
+.slider-img .control-slider{
+    position: absolute;
+    top: 15px;
+}
+.slider-img .btn-prev{
+    left: 10px;
+}
+.slider-img .btn-next{
+    right: 10px;
+}
+
+.box-download-img{
+    overflow: hidden;
+    background: #ffffff;
+    padding: 10px 10px 20px 10px;
+}
+.box-download-img .price-img{
+    float: left;
+    display: block;
+    color: #ed5565;
+    border: 2px solid #ed5565;
+    text-align: center;
+    border-radius: 4px;
+    padding: 7px 15px;
+
+}
+.box-download-img .btn-download{
+    float: right;
+}
+/*anh nền 1*/
+.anhnen-1{
+    padding: 18px 6px 10px 6px;
+}
+.list-img{
+    margin-right: -3px;
+    margin-left: -3px;
+    overflow: hidden;
+}
+.list-img .item{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 3px;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+}
+.list-img .item .info{
+    bottom: 0px;
+    background: url("../Images/opacity.png");
+    font-size: 12px;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -45px;
+    position: relative;
+    z-index: 99;
+    padding: 5px;
+}
+.list-img .item .info b{
+    font-weight: bold;
+}
+.list-img .border-left{
+    background: url("../Images/border-img.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    margin-left: -6px;
+    position: absolute;
+    width: 10px;
+    z-index: 100;
+}
+
+/*menu*/
+.menu ul li a{
+    color: #ffffff;
+    /*font-size: 12px;*/
+    font-size: 18px;
+    padding-left: 5px;
+}
+.menu ul li a img{
+    width:inherit;
+    margin-right:5px;
+
+}
+.menu ul{
+    padding-top: 0 !important;
+    background: #252732;
+}
+.menu ul li:first-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.menu ul li{
+    border-bottom: 1px solid #454753;
+    margin-bottom: 1px;
+}
+.menu.mm-ismenu{
+    background: #36383a;
+}
+.menu ul li p.danh-muc{
+    margin: 0px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #444755;
+    border-bottom: 3px solid #252732;
+}
+.menu ul li span.quantity-item{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #ffffff;
+    font-size: 10px;
+    background: #1a1d1e;
+    padding: 5px !important;
+    line-height: 10px;
+    border-radius: 4px;
+}
+/*Thư giãn*/
+.box-thugian{}
+.box-thugian h4{
+    margin: 0;
+    padding: 10px 10px;
+    background: url("../Images/bg-h4-thugian.png");
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000;
+}
+ul.list-truyen{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.list-truyen li{
+    overflow: hidden;
+}
+ul.list-truyen li a{
+    color: #464646;
+    padding: 5px 5px 5px 26px;
+    background: url("../Images/icon-smile.png") no-repeat left center;
+    display: block;
+}
+/*thể thao*/
+.tag-news {
+    background: #ffffff;
+    padding: 0;
+}
+.tag-news ul.list-tag li{
+    display: block;
+}
+.tonghop-video{
+    padding: 0 10px;
+}
+.list-video-tonghop{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-video-tonghop li{
+    overflow: hidden;
+    border-bottom: 1px solid #d5d5d5;
+}
+.list-video-tonghop li:last-child{
+    border-bottom: none;
+}
+.list-video-tonghop li a{
+    display: block;
+    padding: 5px;
+    color: #515151;
+    font-weight: 600;
+}
+.detail a{
+    color: #ff7e00;
+    font-weight: 600;
+}
+
+/*âm nhạc*/
+
+.single-music{
+    position: relative;
+}
+.single-music .info{
+    position: absolute;
+    background: url("../Images/opacity.png");
+    padding: 5px;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+.single-music .info .music-name{
+    color: #f3ef8c;
+    font-weight: 600;
+}
+.single-music .info .ca-si{
+    color: #ffffff;
+}
+.music{
+    position: relative;
+}
+.title-music{
+    background: url("../Images/bg-h4-thugian.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    color: #ff7e00;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.list-music{
+    padding: 0 10px;
+}
+.list-music .item{
+    overflow: hidden;
+    padding: 5px 0;
+    border-bottom: 1px solid #E5E5E5;
+    background: url("../Images/icon-nhac.png") top right no-repeat;
+}
+.list-music .item .thumbnail-music{
+    float: left;
+    display: table;
+    margin-right: 5px;
+}
+.list-music .item .music-name{
+    margin-bottom: 3px;
+    color: #17658c;
+    font-weight: 600;
+    display: block;
+}
+.list-music .item .ca-si{
+    color: #999999;
+}
+.music .xemthem{
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+.ads-music{
+    padding: 10px 10px;
+}
+.list-album{
+    overflow: hidden;
+    margin-right: -3px;
+    margin-left: -3px;
+    padding: 10px 10px;
+}
+.list-album .item{
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 6px;
+    float: left;
+    width: 50%;
+}
+.list-album .item > div{
+    position: relative;
+}
+.list-album .item .info{
+    background: url("../Images/opacity.png");
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+}
+.list-album .item .info span{
+    color: #ffffff;
+}
+
+
+/*xổ số*/
+ul.list-xoso li a{
+    background: url("../Images/icon-xoso.png") no-repeat left center;
+    color: #000000;
+    font-weight: 300;
+    padding-left: 30px;
+}
+/*PHần mềm*/
+.title-phanmem{
+    background: url("../Images/bg-h4-thugian.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.box-phanmem .box{
+    padding: 10px 10px 0 10px;
+}
+.category-phanmem{}
+.category-phanmem ul{
+    list-style: none;
+    padding: 0 10px 10px 10px;
+    margin: 0;
+}
+.category-phanmem ul li{
+    overflow: hidden;
+    border-bottom: 1px solid #e3e3e3;
+}
+.category-phanmem ul li a{
+    display: block;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: #ff8711;
+    font-weight: 600;
+}
+
+/*CUng hoàng đạo*/
+.list-hoang-dao{
+    margin-left: -7px;
+    margin-right: -7px;
+    padding: 15px 15px 0 15px;
+    overflow: hidden;
+}
+.list-hoang-dao .item{
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 33.33%;
+}
+.list-hoang-dao .item span{
+    color: #b7824c;
+}
+.list-hoang-dao .item span.cung{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*lich thi dau hom nay*/
+.tonghop-video .title-video span {
+    padding: 5px 0;
+    display: block;
+}
+
+/*ket qua thi dau*/
+.list-video-tonghop.ketqua-thidau {
+}
+
+.list-video-tonghop.ketqua-thidau li {
+    background: url("../Images/icon-bong.png") no-repeat left 7px;
+    padding-left: 15px;
+}
+
+.list-video-tonghop.ketqua-thidau li:last-child {
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.list-video-tonghop.ketqua-thidau li span.date-time {
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    color: #8a8a8a;
+}
+
+.nav-ketqua {
+    overflow: hidden;
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.nav-ketqua li {
+    float: left;
+}
+
+.nav-ketqua li a {
+    color: #6d6d6d;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+}
+
+.nav-ketqua li a.active {
+    color: #FF7E00;
+}
+
+/*Album*/
+.album {
+    position: relative;
+}
+
+.album .xemthem {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+/*chuyen muc tin tuc*/
+.video-download .date-time {
+    color: #989797;
+    font-size: 10px;
+}
+
+/*BXH*/
+.box-bxh {
+    padding: 0 10px;
+}
+
+.table-bxh {
+    width: 100%;
+}
+
+.table-bxh thead {
+    background: #e0f1f8;
+    color: #7a86ff;
+}
+
+.table-bxh thead th {
+    text-align: center;
+}
+
+.table-bxh tbody tr td {
+    padding: 3px;
+    text-align: center;
+}
+
+.table-bxh tbody tr:nth-child(2n+1) {
+    background: #ebebeb;
+}
+
+/*chi tiet bai hat*/
+.song-detail {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.song-detail .thumbnail-img {
+    width: 126px;
+    height: 126px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.song-detail .info-song {
+}
+
+.song-detail .info-song h6 {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+.song-detail .info-song span {
+    display: block;
+    color: #424242;
+}
+
+.song-detail .info-song span a {
+    color: #000000;
+}
+
+/*chi tiet game*/
+.game-detail {
+    overflow: hidden;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.game-detail .thumbnail-game {
+    width: 97px;
+    height: 97px;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.game-detail .info-game {
+}
+.game-detail .info-game span{
+    display: block;
+}
+.game-detail .info-game h5 {
+    font-weight: bold;
+    color: #ff7e00;
+}
+.game-detail .btn-price-game{
+    padding: 3px 15px;
+    display: inline-block;
+    background: #cdcdcd;
+    color: #000000;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+.game-detail .btn-download-game{
+    padding: 3px 15px;
+    display: inline-block;
+    background: #ff7e00;
+    color: #000000;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+/*chi tiet game*/
+.nav-detail-game{
+    padding: 0 2px;
+}
+.nav-detail-game li a{
+    background: #cdcdcd;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #000000;
+}
+.nav-detail-game li.active a{
+    background: #ffae5f;
+    border-color:#ffae5f ;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    background: #ffae5f;
+    border-color:#ffae5f ;
+    
+}
+.tab-content-game .content-game-detail{
+    padding: 0 10px;
+}
+
+.swiper-container-custom{
+    padding: 10px 0;
+}
+.swiper-container-custom .swiper-wrapper{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.swiper-container-custom .swiper-wrapper .swiper-slide{
+    padding-right: 10px;
+}
+
+.input-comment-game{
+    padding: 5px 10px;
+    background: #f2f2f2;
+}
+.input-comment-game input[type="text"],.input-comment-game textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+.btn-send-comment{
+    text-align: center;
+}
+.btn-send-comment input[type="button"]{
+    text-align: center;
+    background: none repeat scroll 0 0 #CDCDCD;
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: none;
+}
+.list-comment{
+    margin: 0;
+    padding: 10px 10px;
+    list-style: none;
+    color: #000000;
+}
+.list-comment li{
+    border-bottom: 1px solid #cccccc;
+}
+.list-comment .name{
+    font-weight: bold;
+}
+.list-comment p{
+    color: #6e6e6e;
+}
+.list-comment h5{
+    font-weight: bold;
+}
+
+
+/************************************** Add CSS ************************************************/
+
+.item-paging {
+	text-align:justify;
+	margin:2px 0;
+}
+
+.bold {
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.orange {
+	color:#ff8400;
+}
+
+.rbroundbox {
+    background: url("/imagesnew/bgrtop2.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.rbtop div, .rbtop {
+    height: 21px;
+    width: 100%;
+}
+
+.boxcontent {
+    background-color: #EBE9E6;
+    display: block;
+    padding: 5px;
+}
+
+.clearfix {
+	clear:both;
+	height:0px;
+	overflow:hidden;
+	background-color:#EBE9E6 /* Add here*/
+}
+
+.blue {
+	color:#006cbf;
+}
+
+.download-style 
+{
+	padding-top:5px; 
+	padding-left:5px;
+	}
+
+.img-radius {
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px #000000;
+}
+
+.phanmem-height {
+    font-size: 12px;
+    font-weight: 600;
+    height: 60px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.clear0px
+{
+	clear: both;
+}
+.clear1px
+{
+	clear: both;
+	height: 1px;
+}
+.clear2px
+{
+	clear: both;
+	height: 2px;
+}
+.clear3px
+{
+	clear: both;
+	height: 3px;
+}
+.clear4px
+{
+	clear: both;
+	height: 4px;
+}
+.clear5px
+{
+	clear: both;
+	height: 5px;
+}
+
+.clear7px
+{
+	clear: both;
+	height: 7px;
+}
+
+
+
+/*chinh head*/
+.header{
+    position: static;
+}
+.body{
+    padding-top: 01;
+}
+
+/*update 17/04/2014*/
+.body{
+    padding-top: 0;
+}
+.filter{
+    padding: 0;
+    margin-bottom: 7px;
+}
+.filter .nav-top {
+    list-style: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+}
+
+
+.filter .nav-top li a {
+    color: #4a4a4a;
+    padding: 8px 10px;
+    display: block;
+    background: #eceeed;
+}
+.filter .nav-top li a.active{
+    background: #b0b0b0;
+    color: #fff;
+}
+.filter .nav-top li:nth-child(2) a{
+    border-right: 1px solid #b0b0b0;
+    border-left: 1px solid #b0b0b0;
+}
+.tin-hot-large{
+    position: relative;
+}
+.tin-hot-large .name{
+    padding: 5px 3px;
+    background: url("../Images/opacity.png");
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.tin-hot-large .name a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+}
+.border-bottom{
+    margin: 10px 0;
+    border-color: #e1e1e1;
+}
+.box-title{
+    padding-left: 10px;
+    background:url("../Images/icon-arow-right.png") no-repeat 98% center #eceeed;
+    margin-bottom: 10px;
+}
+.box-title .title{
+    float: none;
+    width: auto;
+    display: table;
+    padding: 8px 0;
+    font-size: 16px;
+    border-top: 2px solid #ff7e00;
+    color: #a1a1a1;
+    font-weight: bold;
+}
+.list-news .item p.description .free{
+    display: block;
+}
+.list-truyen-trangchu{
+    overflow: hidden;
+    margin: 0 -4px;
+}
+.list-truyen-trangchu .item{
+    float: left;
+    width: 33.33%;
+    padding: 0 4px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.list-truyen-trangchu .item > div{
+    position: relative;
+}
+.list-truyen-trangchu .item a.description{
+    color: #c6c6c6;
+    background: url("../Images/opacity.png");
+    display: block;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 15px;
+    font-weight: bold;
+}
+.tin-hot{
+    padding: 0 8px;
+}
+
+
+.list-news .item-game{
+    width: 33.33%;
+    padding-right: 3px;
+    padding-left: 3px;
+    float: left;
+}
+
+.list-news .item-game p.description{
+    margin-top: 3px;
+    /*height:60px;*/
+    height: 45px;
+}
+.list-news .item-game a{
+    color: #333333;
+    font-size: 12px;
+    /*font-weight: 600;*/
+    font-weight: bold;
+}
+.list-news .item-game a:hover{
+    text-decoration: none;
+}
+
+
+/* Edit 1/10/2014 */
+
+.newsCat {
+    padding: 5px 0;
+}
+
+.newsCat .newsCat-head {
+    background: none repeat scroll 0 0 #fff9ed;
+}
+
+.newsCat .newsCat-head h2, .gioitinh-head h2 {
+    margin: 0;
+}
+
+.newsCat .newsCat-content {
+    padding: 0 10px;
+}
+
+.newsCat .newsCat-head h2 a {
+    background: url("/RadioStyle/Content/radio/img/bg-head-newsCat.jpg") no-repeat scroll right center rgba(0, 0, 0, 0);
+    border-left: 3px solid #ffa800;
+    color: #ffa800;
+    display: block;
+    font-size: 0.5em;
+    margin: 0 10px;
+    padding: 3px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.category-lis {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.category-lis li a {
+    background: url("/RadioStyle/Content/radio/img/bg-list-dotted.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    border-bottom: 1px dotted #ccc;
+    color: #ffa800;
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+
